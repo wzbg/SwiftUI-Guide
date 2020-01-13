@@ -34,6 +34,16 @@
 		455A607C23C2E25400EDC97F /* ZStack-Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455A607B23C2E25300EDC97F /* ZStack-Layout.swift */; };
 		455A607E23C2E2F000EDC97F /* List-Basic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455A607D23C2E2F000EDC97F /* List-Basic.swift */; };
 		455A608023C2E3E700EDC97F /* List-Insert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455A607F23C2E3E700EDC97F /* List-Insert.swift */; };
+		457CDFF023CC0FE5009B1A96 /* PathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457CDFEF23CC0FE5009B1A96 /* PathView.swift */; };
+		457CDFF223CC1094009B1A96 /* CreateFolderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457CDFF123CC1094009B1A96 /* CreateFolderView.swift */; };
+		457CDFF423CC1369009B1A96 /* CreateFileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457CDFF323CC1369009B1A96 /* CreateFileView.swift */; };
+		457CDFF623CC20B0009B1A96 /* LoopFileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457CDFF523CC20B0009B1A96 /* LoopFileView.swift */; };
+		4588A45A23CC4B06003146F1 /* ManageFileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4588A45923CC4B06003146F1 /* ManageFileView.swift */; };
+		4588A45C23CC5152003146F1 /* UserDefaultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4588A45B23CC5152003146F1 /* UserDefaultsView.swift */; };
+		4588A45E23CC5A30003146F1 /* ReadPlistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4588A45D23CC5A30003146F1 /* ReadPlistView.swift */; };
+		4588A46023CC5AFA003146F1 /* DemoPlist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4588A45F23CC5AFA003146F1 /* DemoPlist.plist */; };
+		4588A46223CC5F6E003146F1 /* CreatePlistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4588A46123CC5F6E003146F1 /* CreatePlistView.swift */; };
+		4588A46423CC63B4003146F1 /* KeyedArchiverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4588A46323CC63B4003146F1 /* KeyedArchiverView.swift */; };
 		4594D38A23C42B0700C8F758 /* Show-Modal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4594D38923C42B0700C8F758 /* Show-Modal.swift */; };
 		4594D38C23C42C3F00C8F758 /* Show-Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4594D38B23C42C3F00C8F758 /* Show-Alert.swift */; };
 		4594D38E23C42FFE00C8F758 /* Show-ActionSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4594D38D23C42FFE00C8F758 /* Show-ActionSheet.swift */; };
@@ -127,6 +137,16 @@
 		455A607B23C2E25300EDC97F /* ZStack-Layout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ZStack-Layout.swift"; sourceTree = "<group>"; };
 		455A607D23C2E2F000EDC97F /* List-Basic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "List-Basic.swift"; sourceTree = "<group>"; };
 		455A607F23C2E3E700EDC97F /* List-Insert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "List-Insert.swift"; sourceTree = "<group>"; };
+		457CDFEF23CC0FE5009B1A96 /* PathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathView.swift; sourceTree = "<group>"; };
+		457CDFF123CC1094009B1A96 /* CreateFolderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateFolderView.swift; sourceTree = "<group>"; };
+		457CDFF323CC1369009B1A96 /* CreateFileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateFileView.swift; sourceTree = "<group>"; };
+		457CDFF523CC20B0009B1A96 /* LoopFileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoopFileView.swift; sourceTree = "<group>"; };
+		4588A45923CC4B06003146F1 /* ManageFileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageFileView.swift; sourceTree = "<group>"; };
+		4588A45B23CC5152003146F1 /* UserDefaultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsView.swift; sourceTree = "<group>"; };
+		4588A45D23CC5A30003146F1 /* ReadPlistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadPlistView.swift; sourceTree = "<group>"; };
+		4588A45F23CC5AFA003146F1 /* DemoPlist.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = DemoPlist.plist; sourceTree = "<group>"; };
+		4588A46123CC5F6E003146F1 /* CreatePlistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePlistView.swift; sourceTree = "<group>"; };
+		4588A46323CC63B4003146F1 /* KeyedArchiverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyedArchiverView.swift; sourceTree = "<group>"; };
 		4594D38923C42B0700C8F758 /* Show-Modal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Show-Modal.swift"; sourceTree = "<group>"; };
 		4594D38B23C42C3F00C8F758 /* Show-Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Show-Alert.swift"; sourceTree = "<group>"; };
 		4594D38D23C42FFE00C8F758 /* Show-ActionSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Show-ActionSheet.swift"; sourceTree = "<group>"; };
@@ -243,6 +263,23 @@
 			path = Layout;
 			sourceTree = "<group>";
 		};
+		457CDFEE23CC0FAD009B1A96 /* Files&Data */ = {
+			isa = PBXGroup;
+			children = (
+				457CDFEF23CC0FE5009B1A96 /* PathView.swift */,
+				457CDFF123CC1094009B1A96 /* CreateFolderView.swift */,
+				457CDFF323CC1369009B1A96 /* CreateFileView.swift */,
+				457CDFF523CC20B0009B1A96 /* LoopFileView.swift */,
+				4588A45923CC4B06003146F1 /* ManageFileView.swift */,
+				4588A45B23CC5152003146F1 /* UserDefaultsView.swift */,
+				4588A45F23CC5AFA003146F1 /* DemoPlist.plist */,
+				4588A45D23CC5A30003146F1 /* ReadPlistView.swift */,
+				4588A46123CC5F6E003146F1 /* CreatePlistView.swift */,
+				4588A46323CC63B4003146F1 /* KeyedArchiverView.swift */,
+			);
+			path = "Files&Data";
+			sourceTree = "<group>";
+		};
 		4594D38F23C436D700C8F758 /* More */ = {
 			isa = PBXGroup;
 			children = (
@@ -293,6 +330,7 @@
 				455A607423C2E03900EDC97F /* Layout */,
 				454E52B023C33C7C001156D0 /* DataFlow */,
 				4594D38F23C436D700C8F758 /* More */,
+				457CDFEE23CC0FAD009B1A96 /* Files&Data */,
 			);
 			path = "SwiftUI-Guide";
 			sourceTree = "<group>";
@@ -435,6 +473,7 @@
 			files = (
 				45CD88BA23B9E89800885CE5 /* LaunchScreen.storyboard in Resources */,
 				45CD88B723B9E89800885CE5 /* Preview Assets.xcassets in Resources */,
+				4588A46023CC5AFA003146F1 /* DemoPlist.plist in Resources */,
 				45CD88B423B9E89800885CE5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -456,11 +495,13 @@
 				45CD890C23BB480E00885CE5 /* RotationEffect-Spring.swift in Sources */,
 				455A606B23C2D02800EDC97F /* TapGesture-DoubleTap.swift in Sources */,
 				45CD88AE23B9E89400885CE5 /* AppDelegate.swift in Sources */,
+				457CDFF423CC1369009B1A96 /* CreateFileView.swift in Sources */,
 				454E52A923C333AC001156D0 /* Form-Basic.swift in Sources */,
 				45CD88F423BAF4BF00885CE5 /* TabBarView.swift in Sources */,
 				4594D39323C4387F00C8F758 /* Background.swift in Sources */,
 				45CD88C223B9E8C600885CE5 /* Text-BasicStyle.swift in Sources */,
 				454E52B423C3405B001156D0 /* NavigationLink+GoBack.swift in Sources */,
+				4588A46223CC5F6E003146F1 /* CreatePlistView.swift in Sources */,
 				455A606F23C2D66A00EDC97F /* Rotation-Gesture.swift in Sources */,
 				454E52AB23C337F9001156D0 /* Form-Segment.swift in Sources */,
 				45CD890023BB33A700885CE5 /* Linear-Gradient.swift in Sources */,
@@ -468,6 +509,7 @@
 				45CD890423BB39B500885CE5 /* Radial-Gradient.swift in Sources */,
 				45CD88EC23BAE91700885CE5 /* SliderView.swift in Sources */,
 				45CD88D823B9F97E00885CE5 /* DividerView.swift in Sources */,
+				4588A45E23CC5A30003146F1 /* ReadPlistView.swift in Sources */,
 				455A607123C2DAC400EDC97F /* Drag-Gesture.swift in Sources */,
 				4594D3A323C46D5900C8F758 /* NavigationBar-Item.swift in Sources */,
 				454E52B623C41D8A001156D0 /* PageNavigation.swift in Sources */,
@@ -481,6 +523,7 @@
 				45CD88F823BB0B4900885CE5 /* MapView.swift in Sources */,
 				455A607A23C2E20D00EDC97F /* VStack-Layout.swift in Sources */,
 				45CD88CE23B9EFC400885CE5 /* Text-TextField.swift in Sources */,
+				4588A45C23CC5152003146F1 /* UserDefaultsView.swift in Sources */,
 				45CD88D223B9F22700885CE5 /* Button-Basic.swift in Sources */,
 				454E52A323C32CAF001156D0 /* ScrollView-Vertical.swift in Sources */,
 				45CD891223BB505100885CE5 /* SpeadAndDelay.swift in Sources */,
@@ -508,7 +551,9 @@
 				45CD891423BB51F800885CE5 /* Repeating.swift in Sources */,
 				45CD890623BB3AD000885CE5 /* ScaleEffect-Default.swift in Sources */,
 				4594D39B23C4655700C8F758 /* OnAppearAndDisappear.swift in Sources */,
+				4588A45A23CC4B06003146F1 /* ManageFileView.swift in Sources */,
 				455A607323C2DEA200EDC97F /* LongPress+Drag-Gesture.swift in Sources */,
+				457CDFF623CC20B0009B1A96 /* LoopFileView.swift in Sources */,
 				454E52A723C33198001156D0 /* ScrollView-Vertical+Horizontal.swift in Sources */,
 				455A606923C2CE5100EDC97F /* TapGesture-SingleTap.swift in Sources */,
 				454E52AD23C3395B001156D0 /* Form-EnableDisable.swift in Sources */,
@@ -523,10 +568,13 @@
 				45CD88DE23B9FE2600885CE5 /* Image-Processing.swift in Sources */,
 				4594D39123C4375500C8F758 /* PreviewInNavigationView.swift in Sources */,
 				45CD88C423B9EB2800885CE5 /* Text-Paragraph.swift in Sources */,
+				4588A46423CC63B4003146F1 /* KeyedArchiverView.swift in Sources */,
 				45CD88DA23B9FA4E00885CE5 /* Image-Basic.swift in Sources */,
+				457CDFF223CC1094009B1A96 /* CreateFolderView.swift in Sources */,
 				4594D39923C464AB00C8F758 /* ViewAsProperties.swift in Sources */,
 				45CD88FA23BB2A1400885CE5 /* Shape-Circle.swift in Sources */,
 				454E52AF23C33AF8001156D0 /* Form-ShowHide.swift in Sources */,
+				457CDFF023CC0FE5009B1A96 /* PathView.swift in Sources */,
 				45CD88E423BA01EE00885CE5 /* Image-Transform.swift in Sources */,
 				45CD890223BB362100885CE5 /* Angular-Gradient.swift in Sources */,
 				455A607623C2E0AA00EDC97F /* Group-Layout.swift in Sources */,
