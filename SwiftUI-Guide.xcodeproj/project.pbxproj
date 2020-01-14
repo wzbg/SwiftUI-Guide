@@ -58,6 +58,9 @@
 		4594D3A123C46CF300C8F758 /* NavigationBar-Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4594D3A023C46CF300C8F758 /* NavigationBar-Title.swift */; };
 		4594D3A323C46D5900C8F758 /* NavigationBar-Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4594D3A223C46D5900C8F758 /* NavigationBar-Item.swift */; };
 		4594D3A523C4703B00C8F758 /* View-Modifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4594D3A423C4703B00C8F758 /* View-Modifier.swift */; };
+		459F93DD23CC7AB2007F2BC9 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 459F93DB23CC7AB2007F2BC9 /* Model.xcdatamodeld */; };
+		459F93E023CC7BC9007F2BC9 /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459F93DE23CC7BC9007F2BC9 /* User+CoreDataClass.swift */; };
+		459F93E123CC7BC9007F2BC9 /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459F93DF23CC7BC9007F2BC9 /* User+CoreDataProperties.swift */; };
 		45CD88AE23B9E89400885CE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CD88AD23B9E89400885CE5 /* AppDelegate.swift */; };
 		45CD88B023B9E89400885CE5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CD88AF23B9E89400885CE5 /* SceneDelegate.swift */; };
 		45CD88B223B9E89400885CE5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CD88B123B9E89400885CE5 /* ContentView.swift */; };
@@ -107,6 +110,9 @@
 		45CD891423BB51F800885CE5 /* Repeating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CD891323BB51F800885CE5 /* Repeating.swift */; };
 		45CD891623BB552200885CE5 /* ToggleVisibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CD891523BB552200885CE5 /* ToggleVisibility.swift */; };
 		45CD891823BB57D400885CE5 /* AsymmetricTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CD891723BB57D400885CE5 /* AsymmetricTransition.swift */; };
+		45FBCCD323CD587400325614 /* CoreDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FBCCD223CD587400325614 /* CoreDataView.swift */; };
+		45FBCCFC23CD9EC300325614 /* SingletonClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FBCCFB23CD9EC300325614 /* SingletonClass.swift */; };
+		45FBCCFE23CDA03500325614 /* SingletonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FBCCFD23CDA03500325614 /* SingletonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -161,6 +167,9 @@
 		4594D3A023C46CF300C8F758 /* NavigationBar-Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NavigationBar-Title.swift"; sourceTree = "<group>"; };
 		4594D3A223C46D5900C8F758 /* NavigationBar-Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NavigationBar-Item.swift"; sourceTree = "<group>"; };
 		4594D3A423C4703B00C8F758 /* View-Modifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View-Modifier.swift"; sourceTree = "<group>"; };
+		459F93DC23CC7AB2007F2BC9 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		459F93DE23CC7BC9007F2BC9 /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = "<group>"; };
+		459F93DF23CC7BC9007F2BC9 /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		45CD88AA23B9E89400885CE5 /* SwiftUI-Guide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Guide.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		45CD88AD23B9E89400885CE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		45CD88AF23B9E89400885CE5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -212,6 +221,9 @@
 		45CD891323BB51F800885CE5 /* Repeating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repeating.swift; sourceTree = "<group>"; };
 		45CD891523BB552200885CE5 /* ToggleVisibility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleVisibility.swift; sourceTree = "<group>"; };
 		45CD891723BB57D400885CE5 /* AsymmetricTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsymmetricTransition.swift; sourceTree = "<group>"; };
+		45FBCCD223CD587400325614 /* CoreDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataView.swift; sourceTree = "<group>"; };
+		45FBCCFB23CD9EC300325614 /* SingletonClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonClass.swift; sourceTree = "<group>"; };
+		45FBCCFD23CDA03500325614 /* SingletonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -298,6 +310,19 @@
 			path = More;
 			sourceTree = "<group>";
 		};
+		459F93E223CC7BDE007F2BC9 /* CodeData */ = {
+			isa = PBXGroup;
+			children = (
+				459F93DB23CC7AB2007F2BC9 /* Model.xcdatamodeld */,
+				459F93DE23CC7BC9007F2BC9 /* User+CoreDataClass.swift */,
+				459F93DF23CC7BC9007F2BC9 /* User+CoreDataProperties.swift */,
+				45FBCCD223CD587400325614 /* CoreDataView.swift */,
+				45FBCCFB23CD9EC300325614 /* SingletonClass.swift */,
+				45FBCCFD23CDA03500325614 /* SingletonView.swift */,
+			);
+			path = CodeData;
+			sourceTree = "<group>";
+		};
 		45CD88A123B9E89400885CE5 = {
 			isa = PBXGroup;
 			children = (
@@ -331,6 +356,7 @@
 				454E52B023C33C7C001156D0 /* DataFlow */,
 				4594D38F23C436D700C8F758 /* More */,
 				457CDFEE23CC0FAD009B1A96 /* Files&Data */,
+				459F93E223CC7BDE007F2BC9 /* CodeData */,
 			);
 			path = "SwiftUI-Guide";
 			sourceTree = "<group>";
@@ -545,8 +571,11 @@
 				45CD88C823B9ED2C00885CE5 /* Text-FullScreen.swift in Sources */,
 				45CD890E23BB492300885CE5 /* CombinedAnimation.swift in Sources */,
 				4594D39523C4625A00C8F758 /* SizeCategory.swift in Sources */,
+				459F93DD23CC7AB2007F2BC9 /* Model.xcdatamodeld in Sources */,
 				4594D38A23C42B0700C8F758 /* Show-Modal.swift in Sources */,
+				459F93E123CC7BC9007F2BC9 /* User+CoreDataProperties.swift in Sources */,
 				45CD88E023B9FF6300885CE5 /* Image-Blend.swift in Sources */,
+				45FBCCFE23CDA03500325614 /* SingletonView.swift in Sources */,
 				45CD88FE23BB308000885CE5 /* Shape-Path.swift in Sources */,
 				45CD891423BB51F800885CE5 /* Repeating.swift in Sources */,
 				45CD890623BB3AD000885CE5 /* ScaleEffect-Default.swift in Sources */,
@@ -560,7 +589,9 @@
 				45CD88F623BAF60600885CE5 /* WebView.swift in Sources */,
 				4594D39723C4642500C8F758 /* Preview-Device.swift in Sources */,
 				45CD88F223BAF19000885CE5 /* ToggleView.swift in Sources */,
+				459F93E023CC7BC9007F2BC9 /* User+CoreDataClass.swift in Sources */,
 				454E52B223C33CFE001156D0 /* NavigationLink-DataFlow.swift in Sources */,
+				45FBCCD323CD587400325614 /* CoreDataView.swift in Sources */,
 				45CD890823BB3DFB00885CE5 /* Opacity-Linear.swift in Sources */,
 				45CD88D023B9F14500885CE5 /* TextField-SecureField.swift in Sources */,
 				45CD88FC23BB2CB400885CE5 /* Shape-Rectangle.swift in Sources */,
@@ -571,6 +602,7 @@
 				4588A46423CC63B4003146F1 /* KeyedArchiverView.swift in Sources */,
 				45CD88DA23B9FA4E00885CE5 /* Image-Basic.swift in Sources */,
 				457CDFF223CC1094009B1A96 /* CreateFolderView.swift in Sources */,
+				45FBCCFC23CD9EC300325614 /* SingletonClass.swift in Sources */,
 				4594D39923C464AB00C8F758 /* ViewAsProperties.swift in Sources */,
 				45CD88FA23BB2A1400885CE5 /* Shape-Circle.swift in Sources */,
 				454E52AF23C33AF8001156D0 /* Form-ShowHide.swift in Sources */,
@@ -774,6 +806,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		459F93DB23CC7AB2007F2BC9 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				459F93DC23CC7AB2007F2BC9 /* Model.xcdatamodel */,
+			);
+			currentVersion = 459F93DC23CC7AB2007F2BC9 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 45CD88A223B9E89400885CE5 /* Project object */;
 }
