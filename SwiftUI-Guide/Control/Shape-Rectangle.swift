@@ -24,6 +24,7 @@ struct Shape_Rectangle: View {
       RoundedRectangle(cornerSize: CGSize(width: 100, height: 40))
         .frame(width: 300, height: 200)
       RoundedRectangle(cornerRadius: 100, style: .continuous)
+      .stroke(lineWidth: 20)
     }
   }
 }

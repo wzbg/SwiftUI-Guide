@@ -8,6 +8,19 @@
 
 import SwiftUI
 import UIKit
+import Combine
+
+class GlobalData: ObservableObject {
+  @Published var isActive = false
+  var cancelableSubscriber: AnyCancellable?
+  
+  init() {
+    cancelableSubscriber = $isActive
+      .throttle(for: 3, scheduler: RunLoop.main, latest: true)
+      .map { val in false }
+      .assign(to: \.isActive, on: self)
+  }
+}
 
 struct ActivityIndicator: UIViewRepresentable {
   @Binding var isActive: Bool
@@ -56,6 +69,8 @@ struct ActivityIndicatorView: View {
 
 struct ActivityIndicator_Previews: PreviewProvider {
   static var previews: some View {
-    ActivityIndicatorView()
+    let globalData = GlobalData()
+    globalData.isActive = true
+    return ActivityIndicatorView().environmentObject(globalData)
   }
 }

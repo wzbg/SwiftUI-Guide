@@ -62,6 +62,7 @@
 		459F93E023CC7BC9007F2BC9 /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459F93DE23CC7BC9007F2BC9 /* User+CoreDataClass.swift */; };
 		459F93E123CC7BC9007F2BC9 /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459F93DF23CC7BC9007F2BC9 /* User+CoreDataProperties.swift */; };
 		45BC261323D69F8D000E9D64 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BC261223D69F8D000E9D64 /* ActivityIndicator.swift */; };
+		45BC261523D6B8D5000E9D64 /* Image-Mirror.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BC261423D6B8D5000E9D64 /* Image-Mirror.swift */; };
 		45CD88AE23B9E89400885CE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CD88AD23B9E89400885CE5 /* AppDelegate.swift */; };
 		45CD88B023B9E89400885CE5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CD88AF23B9E89400885CE5 /* SceneDelegate.swift */; };
 		45CD88B223B9E89400885CE5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CD88B123B9E89400885CE5 /* ContentView.swift */; };
@@ -172,6 +173,7 @@
 		459F93DE23CC7BC9007F2BC9 /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = "<group>"; };
 		459F93DF23CC7BC9007F2BC9 /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		45BC261223D69F8D000E9D64 /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		45BC261423D6B8D5000E9D64 /* Image-Mirror.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image-Mirror.swift"; sourceTree = "<group>"; };
 		45CD88AA23B9E89400885CE5 /* SwiftUI-Guide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Guide.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		45CD88AD23B9E89400885CE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		45CD88AF23B9E89400885CE5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -409,6 +411,7 @@
 				45CD890123BB362100885CE5 /* Angular-Gradient.swift */,
 				45CD890323BB39B500885CE5 /* Radial-Gradient.swift */,
 				45BC261223D69F8D000E9D64 /* ActivityIndicator.swift */,
+				45BC261423D6B8D5000E9D64 /* Image-Mirror.swift */,
 			);
 			path = Control;
 			sourceTree = "<group>";
@@ -554,6 +557,7 @@
 				45CD88CE23B9EFC400885CE5 /* Text-TextField.swift in Sources */,
 				4588A45C23CC5152003146F1 /* UserDefaultsView.swift in Sources */,
 				45CD88D223B9F22700885CE5 /* Button-Basic.swift in Sources */,
+				45BC261523D6B8D5000E9D64 /* Image-Mirror.swift in Sources */,
 				454E52A323C32CAF001156D0 /* ScrollView-Vertical.swift in Sources */,
 				45CD891223BB505100885CE5 /* SpeadAndDelay.swift in Sources */,
 				454E52B823C421D7001156D0 /* ObjectBinding.swift in Sources */,
