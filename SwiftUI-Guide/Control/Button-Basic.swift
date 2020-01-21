@@ -41,7 +41,7 @@ struct Button_Basic: View {
       }) {
         Text("Default padding")
           .padding()
-          .background(Color.yellow)
+          .background(Color.orange)
       }
       Button(action: {
         print("---Button with image.")

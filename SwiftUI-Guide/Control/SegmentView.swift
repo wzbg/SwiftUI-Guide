@@ -20,7 +20,7 @@ struct SegmentView: View {
         }
       }.pickerStyle(SegmentedPickerStyle())
       Text("Your choice: \(animals[selectedAnimal])")
-    }
+    }.padding()
   }
 }
 

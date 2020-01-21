@@ -61,6 +61,7 @@
 		459F93DD23CC7AB2007F2BC9 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 459F93DB23CC7AB2007F2BC9 /* Model.xcdatamodeld */; };
 		459F93E023CC7BC9007F2BC9 /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459F93DE23CC7BC9007F2BC9 /* User+CoreDataClass.swift */; };
 		459F93E123CC7BC9007F2BC9 /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459F93DF23CC7BC9007F2BC9 /* User+CoreDataProperties.swift */; };
+		45BC261323D69F8D000E9D64 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BC261223D69F8D000E9D64 /* ActivityIndicator.swift */; };
 		45CD88AE23B9E89400885CE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CD88AD23B9E89400885CE5 /* AppDelegate.swift */; };
 		45CD88B023B9E89400885CE5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CD88AF23B9E89400885CE5 /* SceneDelegate.swift */; };
 		45CD88B223B9E89400885CE5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CD88B123B9E89400885CE5 /* ContentView.swift */; };
@@ -170,6 +171,7 @@
 		459F93DC23CC7AB2007F2BC9 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		459F93DE23CC7BC9007F2BC9 /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = "<group>"; };
 		459F93DF23CC7BC9007F2BC9 /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		45BC261223D69F8D000E9D64 /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
 		45CD88AA23B9E89400885CE5 /* SwiftUI-Guide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Guide.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		45CD88AD23B9E89400885CE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		45CD88AF23B9E89400885CE5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -406,6 +408,7 @@
 				45CD88FF23BB33A700885CE5 /* Linear-Gradient.swift */,
 				45CD890123BB362100885CE5 /* Angular-Gradient.swift */,
 				45CD890323BB39B500885CE5 /* Radial-Gradient.swift */,
+				45BC261223D69F8D000E9D64 /* ActivityIndicator.swift */,
 			);
 			path = Control;
 			sourceTree = "<group>";
@@ -562,6 +565,7 @@
 				45CD88B023B9E89400885CE5 /* SceneDelegate.swift in Sources */,
 				45CD88B223B9E89400885CE5 /* ContentView.swift in Sources */,
 				45CD88EE23BAECFD00885CE5 /* StepperView.swift in Sources */,
+				45BC261323D69F8D000E9D64 /* ActivityIndicator.swift in Sources */,
 				455A607E23C2E2F000EDC97F /* List-Basic.swift in Sources */,
 				4594D3A123C46CF300C8F758 /* NavigationBar-Title.swift in Sources */,
 				4594D39D23C4690B00C8F758 /* ColorScheme-LightAndDark.swift in Sources */,
