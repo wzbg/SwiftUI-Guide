@@ -31,7 +31,7 @@ struct Angular_Gradient: View {
             gradient: Gradient(colors: [.orange, .red, .purple]),
             center: .init(x: 0.5, y: 0.5),
             startAngle: .init(degrees: 0),
-            endAngle: .init(degrees: 0)
+            endAngle: .init(degrees: 180)
           )
         )
     }

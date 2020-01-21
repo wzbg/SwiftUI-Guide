@@ -16,7 +16,17 @@ struct Shape_Path: View {
         $0.addLine(to: CGPoint(x: 30, y: 200))
         $0.addLine(to: CGPoint(x: 230, y: 200))
         $0.addLine(to: CGPoint(x: 230, y: 0))
-      }
+        
+        $0.move(to: CGPoint(x: 30, y: 300))
+        $0.addQuadCurve(
+          to: CGPoint(x: 230, y: 300),
+          control: CGPoint(x: 130, y: 450)
+        )
+        $0.addQuadCurve(
+          to: CGPoint(x: 330, y: 300),
+          control: CGPoint(x: 280, y: 220)
+        )
+      }.stroke(lineWidth: 8)
       Path {
         $0.addEllipse(in: CGRect(x: 100, y: 30, width: 200, height: 200))
         $0.addRoundedRect(
