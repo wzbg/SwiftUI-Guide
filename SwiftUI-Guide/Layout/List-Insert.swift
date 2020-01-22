@@ -17,20 +17,26 @@ struct List_Insert: View {
         ForEach(languages, id: \.self) {
           Text($0)
         }
-        .onInsert(of: ["Go"]) { offsets, message in
-          self.languages.insert(message[0].description, at: offsets)
-          print(self.languages)
-        }
+//        .onInsert(of: ["Go"]) { offsets, message in
+//          self.languages.insert(message[0].description, at: offsets)
+//          print(self.languages)
+//        }
       }
       .navigationBarTitle("Edit Row")
-      .navigationBarItems(trailing: EditButton())
+      .navigationBarItems(trailing: Button(action: addItem, label: {
+        Text("Add")
+      }))
     }
     .padding()
   }
   
-  func insertItem(to offsets: Int, message : [NSItemProvider]) {
-    languages.insert(message[0].description, at: offsets)
+  func addItem() {
+    languages.append("Go")
   }
+  
+//  func insertItem(to offsets: Int, message : [NSItemProvider]) {
+//    languages.insert(message[0].description, at: offsets)
+//  }
 }
 
 struct List_Insert_Previews: PreviewProvider {

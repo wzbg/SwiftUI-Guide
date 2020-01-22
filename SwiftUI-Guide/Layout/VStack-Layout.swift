@@ -10,7 +10,7 @@ import SwiftUI
 
 struct VStack_Layout: View {
   var body: some View {
-    VStack{
+    VStack(alignment: .leading, spacing: 50) {
       Text("The fruit and the tree")
         .font(.largeTitle)
       Image("Apple")

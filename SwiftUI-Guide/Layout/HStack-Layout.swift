@@ -10,7 +10,7 @@ import SwiftUI
 
 struct HStack_Layout: View {
   var body: some View {
-    HStack(alignment: .bottom, spacing: 40){
+    HStack(alignment: .top, spacing: 40) {
       Image(systemName: "book.fill")
       Text("Interactive Tutorials")
       Spacer()

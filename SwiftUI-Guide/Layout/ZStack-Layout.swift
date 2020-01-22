@@ -10,7 +10,7 @@ import SwiftUI
 
 struct ZStack_Layout: View {
   var body: some View {
-    ZStack(alignment: .center){
+    ZStack(alignment: .center) {
       Image("beach").clipShape(Circle())
       Text("Sea beach")
         .font(.system(size: 48))
