@@ -65,6 +65,7 @@
 		45BC261523D6B8D5000E9D64 /* Image-Mirror.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BC261423D6B8D5000E9D64 /* Image-Mirror.swift */; };
 		45BC261723D6DD31000E9D64 /* Shape-Capsule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BC261623D6DD31000E9D64 /* Shape-Capsule.swift */; };
 		45BC261923D702D6000E9D64 /* List-Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BC261823D702D6000E9D64 /* List-Section.swift */; };
+		45BC261B23DAF60B000E9D64 /* HueRotationBrightness.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BC261A23DAF60B000E9D64 /* HueRotationBrightness.swift */; };
 		45CD88AE23B9E89400885CE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CD88AD23B9E89400885CE5 /* AppDelegate.swift */; };
 		45CD88B023B9E89400885CE5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CD88AF23B9E89400885CE5 /* SceneDelegate.swift */; };
 		45CD88B223B9E89400885CE5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CD88B123B9E89400885CE5 /* ContentView.swift */; };
@@ -178,6 +179,7 @@
 		45BC261423D6B8D5000E9D64 /* Image-Mirror.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image-Mirror.swift"; sourceTree = "<group>"; };
 		45BC261623D6DD31000E9D64 /* Shape-Capsule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Shape-Capsule.swift"; sourceTree = "<group>"; };
 		45BC261823D702D6000E9D64 /* List-Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "List-Section.swift"; sourceTree = "<group>"; };
+		45BC261A23DAF60B000E9D64 /* HueRotationBrightness.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HueRotationBrightness.swift; sourceTree = "<group>"; };
 		45CD88AA23B9E89400885CE5 /* SwiftUI-Guide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Guide.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		45CD88AD23B9E89400885CE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		45CD88AF23B9E89400885CE5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -434,6 +436,7 @@
 				45CD891323BB51F800885CE5 /* Repeating.swift */,
 				45CD891523BB552200885CE5 /* ToggleVisibility.swift */,
 				45CD891723BB57D400885CE5 /* AsymmetricTransition.swift */,
+				45BC261A23DAF60B000E9D64 /* HueRotationBrightness.swift */,
 			);
 			path = Animation;
 			sourceTree = "<group>";
@@ -523,6 +526,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45BC261B23DAF60B000E9D64 /* HueRotationBrightness.swift in Sources */,
 				45CD88D623B9F8E300885CE5 /* SpacerView.swift in Sources */,
 				455A607C23C2E25400EDC97F /* ZStack-Layout.swift in Sources */,
 				454E529D23C325AE001156D0 /* List-Delete.swift in Sources */,

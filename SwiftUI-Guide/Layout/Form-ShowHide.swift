@@ -18,7 +18,7 @@ struct Form_ShowHide: View {
     NavigationView {
       Form {
         Toggle(isOn: $hideForm.animation()) {
-          Text("隐藏表单")
+          Text((hideForm ? "显示" : "隐藏") + "表单")
         }
         if !hideForm {
           Section(header: Text("请输入您的信息：")) {
