@@ -67,6 +67,14 @@
 		45BC261923D702D6000E9D64 /* List-Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BC261823D702D6000E9D64 /* List-Section.swift */; };
 		45BC261B23DAF60B000E9D64 /* HueRotationBrightness.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BC261A23DAF60B000E9D64 /* HueRotationBrightness.swift */; };
 		45BC261D23DC0535000E9D64 /* SlideUnlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BC261C23DC0535000E9D64 /* SlideUnlock.swift */; };
+		45BC261F23DC14DF000E9D64 /* TripleAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BC261E23DC14DF000E9D64 /* TripleAnimation.swift */; };
+		45BC262123DC1927000E9D64 /* Rotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BC262023DC1927000E9D64 /* Rotation.swift */; };
+		45BC262323DC1D1B000E9D64 /* RockRoll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BC262223DC1D1B000E9D64 /* RockRoll.swift */; };
+		45BC262523DC217D000E9D64 /* FocusAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BC262423DC217D000E9D64 /* FocusAnimation.swift */; };
+		45BC262723DC248A000E9D64 /* SearchlightAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BC262623DC248A000E9D64 /* SearchlightAnimation.swift */; };
+		45BC262923DC2785000E9D64 /* RotateFlower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BC262823DC2785000E9D64 /* RotateFlower.swift */; };
+		45BC262B23DC2A2A000E9D64 /* SequenceAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BC262A23DC2A2A000E9D64 /* SequenceAnimation.swift */; };
+		45BC262D23DC364A000E9D64 /* TrackRotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BC262C23DC364A000E9D64 /* TrackRotation.swift */; };
 		45CD88AE23B9E89400885CE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CD88AD23B9E89400885CE5 /* AppDelegate.swift */; };
 		45CD88B023B9E89400885CE5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CD88AF23B9E89400885CE5 /* SceneDelegate.swift */; };
 		45CD88B223B9E89400885CE5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CD88B123B9E89400885CE5 /* ContentView.swift */; };
@@ -182,6 +190,14 @@
 		45BC261823D702D6000E9D64 /* List-Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "List-Section.swift"; sourceTree = "<group>"; };
 		45BC261A23DAF60B000E9D64 /* HueRotationBrightness.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HueRotationBrightness.swift; sourceTree = "<group>"; };
 		45BC261C23DC0535000E9D64 /* SlideUnlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideUnlock.swift; sourceTree = "<group>"; };
+		45BC261E23DC14DF000E9D64 /* TripleAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripleAnimation.swift; sourceTree = "<group>"; };
+		45BC262023DC1927000E9D64 /* Rotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rotation.swift; sourceTree = "<group>"; };
+		45BC262223DC1D1B000E9D64 /* RockRoll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RockRoll.swift; sourceTree = "<group>"; };
+		45BC262423DC217D000E9D64 /* FocusAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusAnimation.swift; sourceTree = "<group>"; };
+		45BC262623DC248A000E9D64 /* SearchlightAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchlightAnimation.swift; sourceTree = "<group>"; };
+		45BC262823DC2785000E9D64 /* RotateFlower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateFlower.swift; sourceTree = "<group>"; };
+		45BC262A23DC2A2A000E9D64 /* SequenceAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SequenceAnimation.swift; sourceTree = "<group>"; };
+		45BC262C23DC364A000E9D64 /* TrackRotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackRotation.swift; sourceTree = "<group>"; };
 		45CD88AA23B9E89400885CE5 /* SwiftUI-Guide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Guide.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		45CD88AD23B9E89400885CE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		45CD88AF23B9E89400885CE5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -440,6 +456,14 @@
 				45CD891723BB57D400885CE5 /* AsymmetricTransition.swift */,
 				45BC261A23DAF60B000E9D64 /* HueRotationBrightness.swift */,
 				45BC261C23DC0535000E9D64 /* SlideUnlock.swift */,
+				45BC261E23DC14DF000E9D64 /* TripleAnimation.swift */,
+				45BC262023DC1927000E9D64 /* Rotation.swift */,
+				45BC262223DC1D1B000E9D64 /* RockRoll.swift */,
+				45BC262423DC217D000E9D64 /* FocusAnimation.swift */,
+				45BC262623DC248A000E9D64 /* SearchlightAnimation.swift */,
+				45BC262823DC2785000E9D64 /* RotateFlower.swift */,
+				45BC262A23DC2A2A000E9D64 /* SequenceAnimation.swift */,
+				45BC262C23DC364A000E9D64 /* TrackRotation.swift */,
 			);
 			path = Animation;
 			sourceTree = "<group>";
@@ -539,11 +563,13 @@
 				45CD88D423B9F7D200885CE5 /* Button-Sheet.swift in Sources */,
 				45CD890C23BB480E00885CE5 /* RotationEffect-Spring.swift in Sources */,
 				455A606B23C2D02800EDC97F /* TapGesture-DoubleTap.swift in Sources */,
+				45BC262323DC1D1B000E9D64 /* RockRoll.swift in Sources */,
 				45CD88AE23B9E89400885CE5 /* AppDelegate.swift in Sources */,
 				457CDFF423CC1369009B1A96 /* CreateFileView.swift in Sources */,
 				454E52A923C333AC001156D0 /* Form-Basic.swift in Sources */,
 				45CD88F423BAF4BF00885CE5 /* TabBarView.swift in Sources */,
 				4594D39323C4387F00C8F758 /* Background.swift in Sources */,
+				45BC262123DC1927000E9D64 /* Rotation.swift in Sources */,
 				45CD88C223B9E8C600885CE5 /* Text-BasicStyle.swift in Sources */,
 				454E52B423C3405B001156D0 /* NavigationLink+GoBack.swift in Sources */,
 				4588A46223CC5F6E003146F1 /* CreatePlistView.swift in Sources */,
@@ -558,6 +584,7 @@
 				4588A45E23CC5A30003146F1 /* ReadPlistView.swift in Sources */,
 				455A607123C2DAC400EDC97F /* Drag-Gesture.swift in Sources */,
 				4594D3A323C46D5900C8F758 /* NavigationBar-Item.swift in Sources */,
+				45BC262D23DC364A000E9D64 /* TrackRotation.swift in Sources */,
 				454E52B623C41D8A001156D0 /* PageNavigation.swift in Sources */,
 				4594D38E23C42FFE00C8F758 /* Show-ActionSheet.swift in Sources */,
 				454E529F23C32813001156D0 /* List-Move.swift in Sources */,
@@ -565,10 +592,12 @@
 				454E52BA23C42563001156D0 /* Enviroment-Object.swift in Sources */,
 				4594D38C23C42C3F00C8F758 /* Show-Alert.swift in Sources */,
 				454E52A523C330B7001156D0 /* ScrollView-Horizontal.swift in Sources */,
+				45BC262523DC217D000E9D64 /* FocusAnimation.swift in Sources */,
 				45CD88EA23BAE6C900885CE5 /* PickerDateView.swift in Sources */,
 				45CD88F823BB0B4900885CE5 /* MapView.swift in Sources */,
 				455A607A23C2E20D00EDC97F /* VStack-Layout.swift in Sources */,
 				45CD88CE23B9EFC400885CE5 /* Text-TextField.swift in Sources */,
+				45BC262923DC2785000E9D64 /* RotateFlower.swift in Sources */,
 				4588A45C23CC5152003146F1 /* UserDefaultsView.swift in Sources */,
 				45CD88D223B9F22700885CE5 /* Button-Basic.swift in Sources */,
 				45BC261523D6B8D5000E9D64 /* Image-Mirror.swift in Sources */,
@@ -604,6 +633,7 @@
 				4594D39B23C4655700C8F758 /* OnAppearAndDisappear.swift in Sources */,
 				4588A45A23CC4B06003146F1 /* ManageFileView.swift in Sources */,
 				455A607323C2DEA200EDC97F /* LongPress+Drag-Gesture.swift in Sources */,
+				45BC262723DC248A000E9D64 /* SearchlightAnimation.swift in Sources */,
 				457CDFF623CC20B0009B1A96 /* LoopFileView.swift in Sources */,
 				454E52A723C33198001156D0 /* ScrollView-Vertical+Horizontal.swift in Sources */,
 				455A606923C2CE5100EDC97F /* TapGesture-SingleTap.swift in Sources */,
@@ -618,6 +648,7 @@
 				45CD890823BB3DFB00885CE5 /* Opacity-Linear.swift in Sources */,
 				45CD88D023B9F14500885CE5 /* TextField-SecureField.swift in Sources */,
 				45CD88FC23BB2CB400885CE5 /* Shape-Rectangle.swift in Sources */,
+				45BC261F23DC14DF000E9D64 /* TripleAnimation.swift in Sources */,
 				45CD88E223BA00FC00885CE5 /* Image-Mask.swift in Sources */,
 				45CD88DE23B9FE2600885CE5 /* Image-Processing.swift in Sources */,
 				4594D39123C4375500C8F758 /* PreviewInNavigationView.swift in Sources */,
@@ -635,6 +666,7 @@
 				45CD890223BB362100885CE5 /* Angular-Gradient.swift in Sources */,
 				455A607623C2E0AA00EDC97F /* Group-Layout.swift in Sources */,
 				454E52A123C32AA7001156D0 /* List-Delete+Move.swift in Sources */,
+				45BC262B23DC2A2A000E9D64 /* SequenceAnimation.swift in Sources */,
 				45CD88CA23B9ED8E00885CE5 /* Text-DateFormatter.swift in Sources */,
 				4594D39F23C46AF500C8F758 /* Any-View.swift in Sources */,
 			);

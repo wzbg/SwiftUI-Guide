@@ -16,16 +16,7 @@ struct Shape_Capsule: View {
 //      Capsule(style: .circular)
 //      Capsule(style: .continuous)
 //    }
-    ZStack {
-      MyCapsule(color: .red, degree: 0)
-      MyCapsule(color: .red, degree: 45)
-      MyCapsule(color: .yellow, degree: 90)
-      MyCapsule(color: .yellow, degree: 135)
-      MyCapsule(color: .blue, degree: 180)
-      MyCapsule(color: .blue, degree: 225)
-      MyCapsule(color: .green, degree: 275)
-      MyCapsule(color: .green, degree: 315)
-    }
+    SubCapsule()
   }
 }
 
@@ -40,6 +31,21 @@ struct MyCapsule: View {
       .offset(x: 0, y: 60)
       .rotationEffect(.degrees(degree))
       .opacity(0.75)
+  }
+}
+
+struct SubCapsule: View {
+  var body: some View {
+    ZStack {
+      MyCapsule(color: .red, degree: 0)
+      MyCapsule(color: .red, degree: 45)
+      MyCapsule(color: .yellow, degree: 90)
+      MyCapsule(color: .yellow, degree: 135)
+      MyCapsule(color: .blue, degree: 180)
+      MyCapsule(color: .blue, degree: 225)
+      MyCapsule(color: .green, degree: 275)
+      MyCapsule(color: .green, degree: 315)
+    }
   }
 }
 
