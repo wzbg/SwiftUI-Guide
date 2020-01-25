@@ -17,7 +17,7 @@ struct Rotation_Gesture: View {
       .gesture(
         RotationGesture(minimumAngleDelta: .init(degrees: 20))
           .onChanged({
-            self.angle = $0.animatableData
+            self.angle = $0.degrees
           })
           .onEnded({
             print($0)

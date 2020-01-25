@@ -75,6 +75,8 @@
 		45BC262923DC2785000E9D64 /* RotateFlower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BC262823DC2785000E9D64 /* RotateFlower.swift */; };
 		45BC262B23DC2A2A000E9D64 /* SequenceAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BC262A23DC2A2A000E9D64 /* SequenceAnimation.swift */; };
 		45BC262D23DC364A000E9D64 /* TrackRotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BC262C23DC364A000E9D64 /* TrackRotation.swift */; };
+		45BC262F23DC51DA000E9D64 /* Sequence-Gesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BC262E23DC51DA000E9D64 /* Sequence-Gesture.swift */; };
+		45BC263523DC6081000E9D64 /* ContextMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BC263423DC6081000E9D64 /* ContextMenu.swift */; };
 		45CD88AE23B9E89400885CE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CD88AD23B9E89400885CE5 /* AppDelegate.swift */; };
 		45CD88B023B9E89400885CE5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CD88AF23B9E89400885CE5 /* SceneDelegate.swift */; };
 		45CD88B223B9E89400885CE5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CD88B123B9E89400885CE5 /* ContentView.swift */; };
@@ -198,6 +200,8 @@
 		45BC262823DC2785000E9D64 /* RotateFlower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateFlower.swift; sourceTree = "<group>"; };
 		45BC262A23DC2A2A000E9D64 /* SequenceAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SequenceAnimation.swift; sourceTree = "<group>"; };
 		45BC262C23DC364A000E9D64 /* TrackRotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackRotation.swift; sourceTree = "<group>"; };
+		45BC262E23DC51DA000E9D64 /* Sequence-Gesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sequence-Gesture.swift"; sourceTree = "<group>"; };
+		45BC263423DC6081000E9D64 /* ContextMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenu.swift; sourceTree = "<group>"; };
 		45CD88AA23B9E89400885CE5 /* SwiftUI-Guide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Guide.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		45CD88AD23B9E89400885CE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		45CD88AF23B9E89400885CE5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -477,6 +481,8 @@
 				455A606E23C2D66A00EDC97F /* Rotation-Gesture.swift */,
 				455A607023C2DAC400EDC97F /* Drag-Gesture.swift */,
 				455A607223C2DEA200EDC97F /* LongPress+Drag-Gesture.swift */,
+				45BC262E23DC51DA000E9D64 /* Sequence-Gesture.swift */,
+				45BC263423DC6081000E9D64 /* ContextMenu.swift */,
 			);
 			path = Gesture;
 			sourceTree = "<group>";
@@ -601,6 +607,7 @@
 				4588A45C23CC5152003146F1 /* UserDefaultsView.swift in Sources */,
 				45CD88D223B9F22700885CE5 /* Button-Basic.swift in Sources */,
 				45BC261523D6B8D5000E9D64 /* Image-Mirror.swift in Sources */,
+				45BC263523DC6081000E9D64 /* ContextMenu.swift in Sources */,
 				454E52A323C32CAF001156D0 /* ScrollView-Vertical.swift in Sources */,
 				45CD891223BB505100885CE5 /* SpeadAndDelay.swift in Sources */,
 				454E52B823C421D7001156D0 /* ObjectBinding.swift in Sources */,
@@ -657,6 +664,7 @@
 				45CD88DA23B9FA4E00885CE5 /* Image-Basic.swift in Sources */,
 				457CDFF223CC1094009B1A96 /* CreateFolderView.swift in Sources */,
 				45FBCCFC23CD9EC300325614 /* SingletonClass.swift in Sources */,
+				45BC262F23DC51DA000E9D64 /* Sequence-Gesture.swift in Sources */,
 				45BC261D23DC0535000E9D64 /* SlideUnlock.swift in Sources */,
 				4594D39923C464AB00C8F758 /* ViewAsProperties.swift in Sources */,
 				45CD88FA23BB2A1400885CE5 /* Shape-Circle.swift in Sources */,
