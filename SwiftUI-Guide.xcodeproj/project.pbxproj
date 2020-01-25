@@ -66,6 +66,7 @@
 		45BC261723D6DD31000E9D64 /* Shape-Capsule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BC261623D6DD31000E9D64 /* Shape-Capsule.swift */; };
 		45BC261923D702D6000E9D64 /* List-Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BC261823D702D6000E9D64 /* List-Section.swift */; };
 		45BC261B23DAF60B000E9D64 /* HueRotationBrightness.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BC261A23DAF60B000E9D64 /* HueRotationBrightness.swift */; };
+		45BC261D23DC0535000E9D64 /* SlideUnlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BC261C23DC0535000E9D64 /* SlideUnlock.swift */; };
 		45CD88AE23B9E89400885CE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CD88AD23B9E89400885CE5 /* AppDelegate.swift */; };
 		45CD88B023B9E89400885CE5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CD88AF23B9E89400885CE5 /* SceneDelegate.swift */; };
 		45CD88B223B9E89400885CE5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CD88B123B9E89400885CE5 /* ContentView.swift */; };
@@ -180,6 +181,7 @@
 		45BC261623D6DD31000E9D64 /* Shape-Capsule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Shape-Capsule.swift"; sourceTree = "<group>"; };
 		45BC261823D702D6000E9D64 /* List-Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "List-Section.swift"; sourceTree = "<group>"; };
 		45BC261A23DAF60B000E9D64 /* HueRotationBrightness.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HueRotationBrightness.swift; sourceTree = "<group>"; };
+		45BC261C23DC0535000E9D64 /* SlideUnlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideUnlock.swift; sourceTree = "<group>"; };
 		45CD88AA23B9E89400885CE5 /* SwiftUI-Guide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Guide.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		45CD88AD23B9E89400885CE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		45CD88AF23B9E89400885CE5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -437,6 +439,7 @@
 				45CD891523BB552200885CE5 /* ToggleVisibility.swift */,
 				45CD891723BB57D400885CE5 /* AsymmetricTransition.swift */,
 				45BC261A23DAF60B000E9D64 /* HueRotationBrightness.swift */,
+				45BC261C23DC0535000E9D64 /* SlideUnlock.swift */,
 			);
 			path = Animation;
 			sourceTree = "<group>";
@@ -623,6 +626,7 @@
 				45CD88DA23B9FA4E00885CE5 /* Image-Basic.swift in Sources */,
 				457CDFF223CC1094009B1A96 /* CreateFolderView.swift in Sources */,
 				45FBCCFC23CD9EC300325614 /* SingletonClass.swift in Sources */,
+				45BC261D23DC0535000E9D64 /* SlideUnlock.swift in Sources */,
 				4594D39923C464AB00C8F758 /* ViewAsProperties.swift in Sources */,
 				45CD88FA23BB2A1400885CE5 /* Shape-Circle.swift in Sources */,
 				454E52AF23C33AF8001156D0 /* Form-ShowHide.swift in Sources */,
