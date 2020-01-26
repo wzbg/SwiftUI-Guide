@@ -12,7 +12,10 @@ struct NavigationBar_Title: View {
   var body: some View {
     NavigationView {
       Text("SwiftUI's NavigationView")
-        .navigationBarTitle(Text("SwiftUI"), displayMode: .inline)
+//        .navigationBarTitle(Text("SwiftUI"))
+//        .navigationBarTitle(Text("SwiftUI"), displayMode: .inline)
+        .navigationBarTitle(Text("SwiftUI"), displayMode: .large)
+        .navigationBarHidden(true)
     }
   }
 }

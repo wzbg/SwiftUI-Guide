@@ -126,6 +126,11 @@
 		45CD891423BB51F800885CE5 /* Repeating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CD891323BB51F800885CE5 /* Repeating.swift */; };
 		45CD891623BB552200885CE5 /* ToggleVisibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CD891523BB552200885CE5 /* ToggleVisibility.swift */; };
 		45CD891823BB57D400885CE5 /* AsymmetricTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CD891723BB57D400885CE5 /* AsymmetricTransition.swift */; };
+		45F962EE23DD75AB00E8B9C7 /* Presentation-Mode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F962ED23DD75AB00E8B9C7 /* Presentation-Mode.swift */; };
+		45F962F023DD894B00E8B9C7 /* BindingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F962EF23DD894B00E8B9C7 /* BindingView.swift */; };
+		45F962F223DD9F7A00E8B9C7 /* ObjectBinding2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F962F123DD9F7A00E8B9C7 /* ObjectBinding2.swift */; };
+		45F962F423DDACF900E8B9C7 /* Presentation-Modal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F962F323DDACF900E8B9C7 /* Presentation-Modal.swift */; };
+		45F962F623DDAF6A00E8B9C7 /* Popover-Modal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F962F523DDAF6A00E8B9C7 /* Popover-Modal.swift */; };
 		45FBCCD323CD587400325614 /* CoreDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FBCCD223CD587400325614 /* CoreDataView.swift */; };
 		45FBCCFC23CD9EC300325614 /* SingletonClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FBCCFB23CD9EC300325614 /* SingletonClass.swift */; };
 		45FBCCFE23CDA03500325614 /* SingletonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FBCCFD23CDA03500325614 /* SingletonView.swift */; };
@@ -253,6 +258,11 @@
 		45CD891323BB51F800885CE5 /* Repeating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repeating.swift; sourceTree = "<group>"; };
 		45CD891523BB552200885CE5 /* ToggleVisibility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleVisibility.swift; sourceTree = "<group>"; };
 		45CD891723BB57D400885CE5 /* AsymmetricTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsymmetricTransition.swift; sourceTree = "<group>"; };
+		45F962ED23DD75AB00E8B9C7 /* Presentation-Mode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Presentation-Mode.swift"; sourceTree = "<group>"; };
+		45F962EF23DD894B00E8B9C7 /* BindingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingView.swift; sourceTree = "<group>"; };
+		45F962F123DD9F7A00E8B9C7 /* ObjectBinding2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectBinding2.swift; sourceTree = "<group>"; };
+		45F962F323DDACF900E8B9C7 /* Presentation-Modal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Presentation-Modal.swift"; sourceTree = "<group>"; };
+		45F962F523DDAF6A00E8B9C7 /* Popover-Modal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Popover-Modal.swift"; sourceTree = "<group>"; };
 		45FBCCD223CD587400325614 /* CoreDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataView.swift; sourceTree = "<group>"; };
 		45FBCCFB23CD9EC300325614 /* SingletonClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonClass.swift; sourceTree = "<group>"; };
 		45FBCCFD23CDA03500325614 /* SingletonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonView.swift; sourceTree = "<group>"; };
@@ -280,6 +290,11 @@
 				4594D38923C42B0700C8F758 /* Show-Modal.swift */,
 				4594D38B23C42C3F00C8F758 /* Show-Alert.swift */,
 				4594D38D23C42FFE00C8F758 /* Show-ActionSheet.swift */,
+				45F962ED23DD75AB00E8B9C7 /* Presentation-Mode.swift */,
+				45F962EF23DD894B00E8B9C7 /* BindingView.swift */,
+				45F962F123DD9F7A00E8B9C7 /* ObjectBinding2.swift */,
+				45F962F323DDACF900E8B9C7 /* Presentation-Modal.swift */,
+				45F962F523DDAF6A00E8B9C7 /* Popover-Modal.swift */,
 			);
 			path = DataFlow;
 			sourceTree = "<group>";
@@ -561,7 +576,10 @@
 			files = (
 				45BC261B23DAF60B000E9D64 /* HueRotationBrightness.swift in Sources */,
 				45CD88D623B9F8E300885CE5 /* SpacerView.swift in Sources */,
+				45F962F023DD894B00E8B9C7 /* BindingView.swift in Sources */,
+				45F962F423DDACF900E8B9C7 /* Presentation-Modal.swift in Sources */,
 				455A607C23C2E25400EDC97F /* ZStack-Layout.swift in Sources */,
+				45F962F223DD9F7A00E8B9C7 /* ObjectBinding2.swift in Sources */,
 				454E529D23C325AE001156D0 /* List-Delete.swift in Sources */,
 				45CD88F023BAEDDF00885CE5 /* SegmentView.swift in Sources */,
 				4594D3A523C4703B00C8F758 /* View-Modifier.swift in Sources */,
@@ -587,6 +605,7 @@
 				45CD890423BB39B500885CE5 /* Radial-Gradient.swift in Sources */,
 				45CD88EC23BAE91700885CE5 /* SliderView.swift in Sources */,
 				45CD88D823B9F97E00885CE5 /* DividerView.swift in Sources */,
+				45F962F623DDAF6A00E8B9C7 /* Popover-Modal.swift in Sources */,
 				4588A45E23CC5A30003146F1 /* ReadPlistView.swift in Sources */,
 				455A607123C2DAC400EDC97F /* Drag-Gesture.swift in Sources */,
 				4594D3A323C46D5900C8F758 /* NavigationBar-Item.swift in Sources */,
@@ -644,6 +663,7 @@
 				457CDFF623CC20B0009B1A96 /* LoopFileView.swift in Sources */,
 				454E52A723C33198001156D0 /* ScrollView-Vertical+Horizontal.swift in Sources */,
 				455A606923C2CE5100EDC97F /* TapGesture-SingleTap.swift in Sources */,
+				45F962EE23DD75AB00E8B9C7 /* Presentation-Mode.swift in Sources */,
 				454E52AD23C3395B001156D0 /* Form-EnableDisable.swift in Sources */,
 				45CD88F623BAF60600885CE5 /* WebView.swift in Sources */,
 				4594D39723C4642500C8F758 /* Preview-Device.swift in Sources */,

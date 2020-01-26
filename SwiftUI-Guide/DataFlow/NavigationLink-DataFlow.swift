@@ -13,7 +13,10 @@ struct NavigationLink_DataFlow: View {
     NavigationView {
       NavigationLink(destination: MyDetailView(message: "Detail Page #2")) {
         Text("Go detail Page #2 >")
-      }.navigationBarTitle("Index Page #1")
+          .font(.system(size: 36))
+      }
+      .navigationBarTitle("Index Page #1")
+      .accentColor(.orange)
     }
   }
 }

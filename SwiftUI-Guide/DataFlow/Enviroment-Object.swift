@@ -10,6 +10,7 @@ import SwiftUI
 
 struct Enviroment_Object: View {
   @EnvironmentObject var model: UserModel
+  @State private var isPresented = false
   
   var body: some View {
     NavigationView {
@@ -34,6 +35,8 @@ struct DetailView3: View {
 
 struct Enviroment_Object_Previews: PreviewProvider {
   static var previews: some View {
-    Enviroment_Object()
+    let model = UserModel()
+    model.nickName = "￠幻冰"
+    return Enviroment_Object().environmentObject(model)
   }
 }

@@ -9,12 +9,16 @@
 import SwiftUI
 
 struct ViewAsProperties: View {
+  let icon = Image(systemName: "book.fill")
+  let title = Text("Interactive Tutorials")
+  let flag = Image(systemName: "icloud.and.arrow.down")
+  
   var body: some View {
     HStack(alignment: .bottom, spacing: 40) {
-      Image(systemName: "book.fill")
-      Text("Interactive Tutorials")
+      icon
+      title
       Spacer()
-      Image(systemName: "icloud.and.arrow.down")
+      flag
     }.padding()
   }
 }
