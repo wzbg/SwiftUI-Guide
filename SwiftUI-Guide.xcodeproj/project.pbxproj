@@ -129,6 +129,7 @@
 		45CDDAF623DEAC74002DF89D /* SlideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CDDAF523DEAC74002DF89D /* SlideMenuView.swift */; };
 		45CDDAF823DEBC1F002DF89D /* TeachApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CDDAF723DEBC1F002DF89D /* TeachApp.swift */; };
 		45CDDAFA23DED2EB002DF89D /* GameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CDDAF923DED2EB002DF89D /* GameApp.swift */; };
+		45CDDAFC23DEE51B002DF89D /* LightApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CDDAFB23DEE51B002DF89D /* LightApp.swift */; };
 		45EB509F23DE96A2000E3809 /* PrettyAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EB509E23DE96A2000E3809 /* PrettyAnimation.swift */; };
 		45EB50A223DE9D43000E3809 /* SwiftUIPullToRefresh in Frameworks */ = {isa = PBXBuildFile; productRef = 45EB50A123DE9D43000E3809 /* SwiftUIPullToRefresh */; };
 		45EB50A423DEA5F0000E3809 /* PullToRefresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EB50A323DEA5F0000E3809 /* PullToRefresh.swift */; };
@@ -267,6 +268,7 @@
 		45CDDAF523DEAC74002DF89D /* SlideMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideMenuView.swift; sourceTree = "<group>"; };
 		45CDDAF723DEBC1F002DF89D /* TeachApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeachApp.swift; sourceTree = "<group>"; };
 		45CDDAF923DED2EB002DF89D /* GameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameApp.swift; sourceTree = "<group>"; };
+		45CDDAFB23DEE51B002DF89D /* LightApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightApp.swift; sourceTree = "<group>"; };
 		45EB509E23DE96A2000E3809 /* PrettyAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrettyAnimation.swift; sourceTree = "<group>"; };
 		45EB50A323DEA5F0000E3809 /* PullToRefresh.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PullToRefresh.swift; sourceTree = "<group>"; };
 		45F962ED23DD75AB00E8B9C7 /* Presentation-Mode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Presentation-Mode.swift"; sourceTree = "<group>"; };
@@ -523,6 +525,7 @@
 				45CDDAF523DEAC74002DF89D /* SlideMenuView.swift */,
 				45CDDAF723DEBC1F002DF89D /* TeachApp.swift */,
 				45CDDAF923DED2EB002DF89D /* GameApp.swift */,
+				45CDDAFB23DEE51B002DF89D /* LightApp.swift */,
 			);
 			path = Combat;
 			sourceTree = "<group>";
@@ -680,6 +683,7 @@
 				45CD88E623BA048500885CE5 /* Image-Web.swift in Sources */,
 				45CD891623BB552200885CE5 /* ToggleVisibility.swift in Sources */,
 				45CD88E823BAE51200885CE5 /* PickerView.swift in Sources */,
+				45CDDAFC23DEE51B002DF89D /* LightApp.swift in Sources */,
 				45CD88C823B9ED2C00885CE5 /* Text-FullScreen.swift in Sources */,
 				45CD890E23BB492300885CE5 /* CombinedAnimation.swift in Sources */,
 				4594D39523C4625A00C8F758 /* SizeCategory.swift in Sources */,
