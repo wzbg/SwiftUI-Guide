@@ -126,6 +126,7 @@
 		45CD891423BB51F800885CE5 /* Repeating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CD891323BB51F800885CE5 /* Repeating.swift */; };
 		45CD891623BB552200885CE5 /* ToggleVisibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CD891523BB552200885CE5 /* ToggleVisibility.swift */; };
 		45CD891823BB57D400885CE5 /* AsymmetricTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CD891723BB57D400885CE5 /* AsymmetricTransition.swift */; };
+		45CDDAF623DEAC74002DF89D /* SlideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CDDAF523DEAC74002DF89D /* SlideMenuView.swift */; };
 		45EB509F23DE96A2000E3809 /* PrettyAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EB509E23DE96A2000E3809 /* PrettyAnimation.swift */; };
 		45EB50A223DE9D43000E3809 /* SwiftUIPullToRefresh in Frameworks */ = {isa = PBXBuildFile; productRef = 45EB50A123DE9D43000E3809 /* SwiftUIPullToRefresh */; };
 		45EB50A423DEA5F0000E3809 /* PullToRefresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EB50A323DEA5F0000E3809 /* PullToRefresh.swift */; };
@@ -261,6 +262,7 @@
 		45CD891323BB51F800885CE5 /* Repeating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repeating.swift; sourceTree = "<group>"; };
 		45CD891523BB552200885CE5 /* ToggleVisibility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleVisibility.swift; sourceTree = "<group>"; };
 		45CD891723BB57D400885CE5 /* AsymmetricTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsymmetricTransition.swift; sourceTree = "<group>"; };
+		45CDDAF523DEAC74002DF89D /* SlideMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideMenuView.swift; sourceTree = "<group>"; };
 		45EB509E23DE96A2000E3809 /* PrettyAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrettyAnimation.swift; sourceTree = "<group>"; };
 		45EB50A323DEA5F0000E3809 /* PullToRefresh.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PullToRefresh.swift; sourceTree = "<group>"; };
 		45F962ED23DD75AB00E8B9C7 /* Presentation-Mode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Presentation-Mode.swift"; sourceTree = "<group>"; };
@@ -514,6 +516,7 @@
 			children = (
 				45EB509E23DE96A2000E3809 /* PrettyAnimation.swift */,
 				45EB50A323DEA5F0000E3809 /* PullToRefresh.swift */,
+				45CDDAF523DEAC74002DF89D /* SlideMenuView.swift */,
 			);
 			path = Combat;
 			sourceTree = "<group>";
@@ -658,6 +661,7 @@
 				45CD890A23BB41ED00885CE5 /* Offset-EaseOut.swift in Sources */,
 				455A607823C2E1C700EDC97F /* HStack-Layout.swift in Sources */,
 				455A608023C2E3E700EDC97F /* List-Insert.swift in Sources */,
+				45CDDAF623DEAC74002DF89D /* SlideMenuView.swift in Sources */,
 				45CD88B023B9E89400885CE5 /* SceneDelegate.swift in Sources */,
 				45CD88B223B9E89400885CE5 /* ContentView.swift in Sources */,
 				45CD88EE23BAECFD00885CE5 /* StepperView.swift in Sources */,
