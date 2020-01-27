@@ -126,6 +126,7 @@
 		45CD891423BB51F800885CE5 /* Repeating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CD891323BB51F800885CE5 /* Repeating.swift */; };
 		45CD891623BB552200885CE5 /* ToggleVisibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CD891523BB552200885CE5 /* ToggleVisibility.swift */; };
 		45CD891823BB57D400885CE5 /* AsymmetricTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CD891723BB57D400885CE5 /* AsymmetricTransition.swift */; };
+		45EB509F23DE96A2000E3809 /* PrettyAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EB509E23DE96A2000E3809 /* PrettyAnimation.swift */; };
 		45F962EE23DD75AB00E8B9C7 /* Presentation-Mode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F962ED23DD75AB00E8B9C7 /* Presentation-Mode.swift */; };
 		45F962F023DD894B00E8B9C7 /* BindingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F962EF23DD894B00E8B9C7 /* BindingView.swift */; };
 		45F962F223DD9F7A00E8B9C7 /* ObjectBinding2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F962F123DD9F7A00E8B9C7 /* ObjectBinding2.swift */; };
@@ -258,6 +259,7 @@
 		45CD891323BB51F800885CE5 /* Repeating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repeating.swift; sourceTree = "<group>"; };
 		45CD891523BB552200885CE5 /* ToggleVisibility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleVisibility.swift; sourceTree = "<group>"; };
 		45CD891723BB57D400885CE5 /* AsymmetricTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsymmetricTransition.swift; sourceTree = "<group>"; };
+		45EB509E23DE96A2000E3809 /* PrettyAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrettyAnimation.swift; sourceTree = "<group>"; };
 		45F962ED23DD75AB00E8B9C7 /* Presentation-Mode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Presentation-Mode.swift"; sourceTree = "<group>"; };
 		45F962EF23DD894B00E8B9C7 /* BindingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingView.swift; sourceTree = "<group>"; };
 		45F962F123DD9F7A00E8B9C7 /* ObjectBinding2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectBinding2.swift; sourceTree = "<group>"; };
@@ -405,6 +407,7 @@
 				4594D38F23C436D700C8F758 /* More */,
 				457CDFEE23CC0FAD009B1A96 /* Files&Data */,
 				459F93E223CC7BDE007F2BC9 /* CodeData */,
+				45EB509D23DE95FE000E3809 /* Combat */,
 			);
 			path = "SwiftUI-Guide";
 			sourceTree = "<group>";
@@ -500,6 +503,14 @@
 				45BC263423DC6081000E9D64 /* ContextMenu.swift */,
 			);
 			path = Gesture;
+			sourceTree = "<group>";
+		};
+		45EB509D23DE95FE000E3809 /* Combat */ = {
+			isa = PBXGroup;
+			children = (
+				45EB509E23DE96A2000E3809 /* PrettyAnimation.swift */,
+			);
+			path = Combat;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -598,6 +609,7 @@
 				454E52B423C3405B001156D0 /* NavigationLink+GoBack.swift in Sources */,
 				4588A46223CC5F6E003146F1 /* CreatePlistView.swift in Sources */,
 				45BC261923D702D6000E9D64 /* List-Section.swift in Sources */,
+				45EB509F23DE96A2000E3809 /* PrettyAnimation.swift in Sources */,
 				455A606F23C2D66A00EDC97F /* Rotation-Gesture.swift in Sources */,
 				454E52AB23C337F9001156D0 /* Form-Segment.swift in Sources */,
 				45CD890023BB33A700885CE5 /* Linear-Gradient.swift in Sources */,
