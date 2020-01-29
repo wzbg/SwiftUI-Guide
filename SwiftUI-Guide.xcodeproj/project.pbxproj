@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4543C1E823E14634005BC2B5 /* StatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4543C1E723E14634005BC2B5 /* StatApp.swift */; };
+		4543C1EA23E151E3005BC2B5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4543C1E923E151E3005BC2B5 /* Constants.swift */; };
 		454E529D23C325AE001156D0 /* List-Delete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454E529C23C325AE001156D0 /* List-Delete.swift */; };
 		454E529F23C32813001156D0 /* List-Move.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454E529E23C32813001156D0 /* List-Move.swift */; };
 		454E52A123C32AA7001156D0 /* List-Delete+Move.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454E52A023C32AA7001156D0 /* List-Delete+Move.swift */; };
@@ -147,6 +149,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4543C1E723E14634005BC2B5 /* StatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatApp.swift; sourceTree = "<group>"; };
+		4543C1E923E151E3005BC2B5 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		454E529C23C325AE001156D0 /* List-Delete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "List-Delete.swift"; sourceTree = "<group>"; };
 		454E529E23C32813001156D0 /* List-Move.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "List-Move.swift"; sourceTree = "<group>"; };
 		454E52A023C32AA7001156D0 /* List-Delete+Move.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "List-Delete+Move.swift"; sourceTree = "<group>"; };
@@ -535,6 +539,8 @@
 				45CDDAFD23DF0FC3002DF89D /* BankCardApp.swift */,
 				45F0529623DFF42E004A7195 /* FinanceApp.swift */,
 				45F0529823E048F6004A7195 /* LogInView.swift */,
+				4543C1E723E14634005BC2B5 /* StatApp.swift */,
+				4543C1E923E151E3005BC2B5 /* Constants.swift */,
 			);
 			path = Combat;
 			sourceTree = "<group>";
@@ -626,6 +632,7 @@
 				45F962F223DD9F7A00E8B9C7 /* ObjectBinding2.swift in Sources */,
 				454E529D23C325AE001156D0 /* List-Delete.swift in Sources */,
 				45CD88F023BAEDDF00885CE5 /* SegmentView.swift in Sources */,
+				4543C1EA23E151E3005BC2B5 /* Constants.swift in Sources */,
 				4594D3A523C4703B00C8F758 /* View-Modifier.swift in Sources */,
 				455A606D23C2D09500EDC97F /* LongPress-Gesture.swift in Sources */,
 				45CD88D423B9F7D200885CE5 /* Button-Sheet.swift in Sources */,
@@ -729,6 +736,7 @@
 				45BC261F23DC14DF000E9D64 /* TripleAnimation.swift in Sources */,
 				45CD88E223BA00FC00885CE5 /* Image-Mask.swift in Sources */,
 				45CD88DE23B9FE2600885CE5 /* Image-Processing.swift in Sources */,
+				4543C1E823E14634005BC2B5 /* StatApp.swift in Sources */,
 				4594D39123C4375500C8F758 /* PreviewInNavigationView.swift in Sources */,
 				45CD88C423B9EB2800885CE5 /* Text-Paragraph.swift in Sources */,
 				4588A46423CC63B4003146F1 /* KeyedArchiverView.swift in Sources */,
