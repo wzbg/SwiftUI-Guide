@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4543C1E823E14634005BC2B5 /* StatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4543C1E723E14634005BC2B5 /* StatApp.swift */; };
 		4543C1EA23E151E3005BC2B5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4543C1E923E151E3005BC2B5 /* Constants.swift */; };
+		4543C1ED23E192BA005BC2B5 /* FoodApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4543C1EC23E192BA005BC2B5 /* FoodApp.swift */; };
 		454E529D23C325AE001156D0 /* List-Delete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454E529C23C325AE001156D0 /* List-Delete.swift */; };
 		454E529F23C32813001156D0 /* List-Move.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454E529E23C32813001156D0 /* List-Move.swift */; };
 		454E52A123C32AA7001156D0 /* List-Delete+Move.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454E52A023C32AA7001156D0 /* List-Delete+Move.swift */; };
@@ -151,6 +152,7 @@
 /* Begin PBXFileReference section */
 		4543C1E723E14634005BC2B5 /* StatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatApp.swift; sourceTree = "<group>"; };
 		4543C1E923E151E3005BC2B5 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		4543C1EC23E192BA005BC2B5 /* FoodApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodApp.swift; sourceTree = "<group>"; };
 		454E529C23C325AE001156D0 /* List-Delete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "List-Delete.swift"; sourceTree = "<group>"; };
 		454E529E23C32813001156D0 /* List-Move.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "List-Move.swift"; sourceTree = "<group>"; };
 		454E52A023C32AA7001156D0 /* List-Delete+Move.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "List-Delete+Move.swift"; sourceTree = "<group>"; };
@@ -303,6 +305,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4543C1EB23E1921C005BC2B5 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				4543C1EC23E192BA005BC2B5 /* FoodApp.swift */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
 		454E52B023C33C7C001156D0 /* DataFlow */ = {
 			isa = PBXGroup;
 			children = (
@@ -430,6 +440,7 @@
 				457CDFEE23CC0FAD009B1A96 /* Files&Data */,
 				459F93E223CC7BDE007F2BC9 /* CodeData */,
 				45EB509D23DE95FE000E3809 /* Combat */,
+				4543C1EB23E1921C005BC2B5 /* Demo */,
 			);
 			path = "SwiftUI-Guide";
 			sourceTree = "<group>";
@@ -639,6 +650,7 @@
 				45CDDAF823DEBC1F002DF89D /* TeachApp.swift in Sources */,
 				45CD890C23BB480E00885CE5 /* RotationEffect-Spring.swift in Sources */,
 				455A606B23C2D02800EDC97F /* TapGesture-DoubleTap.swift in Sources */,
+				4543C1ED23E192BA005BC2B5 /* FoodApp.swift in Sources */,
 				45BC262323DC1D1B000E9D64 /* RockRoll.swift in Sources */,
 				45CD88AE23B9E89400885CE5 /* AppDelegate.swift in Sources */,
 				457CDFF423CC1369009B1A96 /* CreateFileView.swift in Sources */,
@@ -894,7 +906,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI-Guide/Preview Content\"";
-				DEVELOPMENT_TEAM = 9EF8UNLTW7;
+				DEVELOPMENT_TEAM = MFWRVSHWTR;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "SwiftUI-Guide/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -914,7 +926,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI-Guide/Preview Content\"";
-				DEVELOPMENT_TEAM = 9EF8UNLTW7;
+				DEVELOPMENT_TEAM = MFWRVSHWTR;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "SwiftUI-Guide/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
