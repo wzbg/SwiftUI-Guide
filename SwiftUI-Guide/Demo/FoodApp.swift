@@ -50,8 +50,8 @@ let heroes = [
 
 struct FoodApp: View {
   @State var pageNumber = 1
-  @State var previousOffset: CGSize = CGSize(width: (screenWidth + 8) * 2, height: 0)
-  @State var offset: CGSize = CGSize(width: (screenWidth + 8) * 2, height: 0)
+  @State var prevOffsetWidth = (screenWidth + 8) * 2
+  @State var offsetWidth = (screenWidth + 8) * 2
   
   var body: some View {
     VStack(alignment: .center) {
@@ -60,22 +60,22 @@ struct FoodApp: View {
           FoodPageView(hero: $0)
         }
       }//.padding(0)
-      .offset(x: offset.width, y: 0)
+      .offset(x: offsetWidth, y: 0)
       .gesture(DragGesture()
         .onChanged {
-          self.offset.width = self.previousOffset.width + $0.translation.width
+          self.offsetWidth = self.prevOffsetWidth + $0.translation.width
         }.onEnded {
           if abs($0.translation.width) < 50 {
-            self.offset.width = self.previousOffset.width
+            self.offsetWidth = self.prevOffsetWidth
           } else {
             if $0.translation.width > 0 && self.pageNumber > 1 {
-              self.previousOffset.width += screenWidth + 8
+              self.prevOffsetWidth += screenWidth + 8
               self.pageNumber -= 1
             } else if $0.translation.width < 0 && self.pageNumber < heroes.count {
-              self.previousOffset.width -= screenWidth + 8
+              self.prevOffsetWidth -= screenWidth + 8
               self.pageNumber += 1
             }
-            self.offset.width = self.previousOffset.width
+            self.offsetWidth = self.prevOffsetWidth
           }
         }
       )

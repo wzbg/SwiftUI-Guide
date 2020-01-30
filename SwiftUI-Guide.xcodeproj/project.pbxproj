@@ -134,6 +134,12 @@
 		45CDDAFA23DED2EB002DF89D /* GameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CDDAF923DED2EB002DF89D /* GameApp.swift */; };
 		45CDDAFC23DEE51B002DF89D /* LightApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CDDAFB23DEE51B002DF89D /* LightApp.swift */; };
 		45CDDAFE23DF0FC3002DF89D /* BankCardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CDDAFD23DF0FC3002DF89D /* BankCardApp.swift */; };
+		45E558A723E29A9F00692354 /* FitnessApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E558A623E29A9F00692354 /* FitnessApp.swift */; };
+		45E558B723E2B73900692354 /* 俯卧撑.gif in Resources */ = {isa = PBXBuildFile; fileRef = 45E558B323E2B73900692354 /* 俯卧撑.gif */; };
+		45E558B823E2B73900692354 /* 剪蹲.gif in Resources */ = {isa = PBXBuildFile; fileRef = 45E558B423E2B73900692354 /* 剪蹲.gif */; };
+		45E558B923E2B73900692354 /* 徒手深蹲.gif in Resources */ = {isa = PBXBuildFile; fileRef = 45E558B523E2B73900692354 /* 徒手深蹲.gif */; };
+		45E558BA23E2B73900692354 /* 平板支撑.gif in Resources */ = {isa = PBXBuildFile; fileRef = 45E558B623E2B73900692354 /* 平板支撑.gif */; };
+		45E558BC23E2BE7F00692354 /* FitResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E558BB23E2BE7F00692354 /* FitResultView.swift */; };
 		45EB509F23DE96A2000E3809 /* PrettyAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EB509E23DE96A2000E3809 /* PrettyAnimation.swift */; };
 		45EB50A223DE9D43000E3809 /* SwiftUIPullToRefresh in Frameworks */ = {isa = PBXBuildFile; productRef = 45EB50A123DE9D43000E3809 /* SwiftUIPullToRefresh */; };
 		45EB50A423DEA5F0000E3809 /* PullToRefresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EB50A323DEA5F0000E3809 /* PullToRefresh.swift */; };
@@ -279,6 +285,12 @@
 		45CDDAF923DED2EB002DF89D /* GameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameApp.swift; sourceTree = "<group>"; };
 		45CDDAFB23DEE51B002DF89D /* LightApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightApp.swift; sourceTree = "<group>"; };
 		45CDDAFD23DF0FC3002DF89D /* BankCardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankCardApp.swift; sourceTree = "<group>"; };
+		45E558A623E29A9F00692354 /* FitnessApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessApp.swift; sourceTree = "<group>"; };
+		45E558B323E2B73900692354 /* 俯卧撑.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "俯卧撑.gif"; sourceTree = "<group>"; };
+		45E558B423E2B73900692354 /* 剪蹲.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "剪蹲.gif"; sourceTree = "<group>"; };
+		45E558B523E2B73900692354 /* 徒手深蹲.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "徒手深蹲.gif"; sourceTree = "<group>"; };
+		45E558B623E2B73900692354 /* 平板支撑.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "平板支撑.gif"; sourceTree = "<group>"; };
+		45E558BB23E2BE7F00692354 /* FitResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitResultView.swift; sourceTree = "<group>"; };
 		45EB509E23DE96A2000E3809 /* PrettyAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrettyAnimation.swift; sourceTree = "<group>"; };
 		45EB50A323DEA5F0000E3809 /* PullToRefresh.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PullToRefresh.swift; sourceTree = "<group>"; };
 		45F0529623DFF42E004A7195 /* FinanceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceApp.swift; sourceTree = "<group>"; };
@@ -308,7 +320,10 @@
 		4543C1EB23E1921C005BC2B5 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				45E558A823E2B5F500692354 /* fit */,
 				4543C1EC23E192BA005BC2B5 /* FoodApp.swift */,
+				45E558A623E29A9F00692354 /* FitnessApp.swift */,
+				45E558BB23E2BE7F00692354 /* FitResultView.swift */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -538,6 +553,17 @@
 			path = Gesture;
 			sourceTree = "<group>";
 		};
+		45E558A823E2B5F500692354 /* fit */ = {
+			isa = PBXGroup;
+			children = (
+				45E558B323E2B73900692354 /* 俯卧撑.gif */,
+				45E558B423E2B73900692354 /* 剪蹲.gif */,
+				45E558B623E2B73900692354 /* 平板支撑.gif */,
+				45E558B523E2B73900692354 /* 徒手深蹲.gif */,
+			);
+			path = fit;
+			sourceTree = "<group>";
+		};
 		45EB509D23DE95FE000E3809 /* Combat */ = {
 			isa = PBXGroup;
 			children = (
@@ -620,9 +646,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45E558B823E2B73900692354 /* 剪蹲.gif in Resources */,
 				45CD88BA23B9E89800885CE5 /* LaunchScreen.storyboard in Resources */,
+				45E558B923E2B73900692354 /* 徒手深蹲.gif in Resources */,
 				45CD88B723B9E89800885CE5 /* Preview Assets.xcassets in Resources */,
+				45E558B723E2B73900692354 /* 俯卧撑.gif in Resources */,
 				4588A46023CC5AFA003146F1 /* DemoPlist.plist in Resources */,
+				45E558BA23E2B73900692354 /* 平板支撑.gif in Resources */,
 				45CD88B423B9E89800885CE5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -682,6 +712,7 @@
 				454E529F23C32813001156D0 /* List-Move.swift in Sources */,
 				45CD88CC23B9EF7E00885CE5 /* Text-Append.swift in Sources */,
 				454E52BA23C42563001156D0 /* Enviroment-Object.swift in Sources */,
+				45E558A723E29A9F00692354 /* FitnessApp.swift in Sources */,
 				4594D38C23C42C3F00C8F758 /* Show-Alert.swift in Sources */,
 				454E52A523C330B7001156D0 /* ScrollView-Horizontal.swift in Sources */,
 				45BC262523DC217D000E9D64 /* FocusAnimation.swift in Sources */,
@@ -736,6 +767,7 @@
 				454E52AD23C3395B001156D0 /* Form-EnableDisable.swift in Sources */,
 				45CD88F623BAF60600885CE5 /* WebView.swift in Sources */,
 				45CDDAFE23DF0FC3002DF89D /* BankCardApp.swift in Sources */,
+				45E558BC23E2BE7F00692354 /* FitResultView.swift in Sources */,
 				4594D39723C4642500C8F758 /* Preview-Device.swift in Sources */,
 				45CD88F223BAF19000885CE5 /* ToggleView.swift in Sources */,
 				459F93E023CC7BC9007F2BC9 /* User+CoreDataClass.swift in Sources */,
