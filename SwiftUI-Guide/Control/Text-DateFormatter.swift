@@ -11,14 +11,14 @@ import SwiftUI
 struct Text_DateFormatter: View {
   var now = Date()
   
-  static let dateFormatte: DateFormatter = {
+  static let dateFormatter: DateFormatter = {
     let formatter = DateFormatter()
     formatter.dateStyle = .long
     return formatter
   }()
   
   var body: some View {
-    Text("The time is: \(now, formatter: Self.dateFormatte)")
+    Text("The time is: \(now, formatter: Self.dateFormatter)")
       .font(.title)
       .padding()
   }
