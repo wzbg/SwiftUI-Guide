@@ -1,5 +1,5 @@
 //
-//  FinanceApp.swift
+//  DepositApp.swift
 //  SwiftUI-Guide
 //
 //  Created by huanbing on 2020/1/28.
@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-struct FinanceApp: View {
+struct DepositApp: View {
   @State var isPopup = false
   @State var isAnimating = false
   
@@ -19,15 +19,15 @@ struct FinanceApp: View {
         .edgesIgnoringSafeArea(.all)
       VStack {
         TopTitleView()
-          .modifier(FinanceAnimationStyle(isAnimating: $isAnimating))
+          .modifier(DepositAnimationStyle(isAnimating: $isAnimating))
         DepositAmountView()
-          .modifier(FinanceAnimationStyle(isAnimating: $isAnimating, delay: 0.2))
+          .modifier(DepositAnimationStyle(isAnimating: $isAnimating, delay: 0.2))
         Spacer()
         AtTheTimeView()
-          .modifier(FinanceAnimationStyle(isAnimating: $isAnimating, delay: 0.4))
+          .modifier(DepositAnimationStyle(isAnimating: $isAnimating, delay: 0.4))
         Spacer()
         InterestPaymentsView()
-          .modifier(FinanceAnimationStyle(isAnimating: $isAnimating, delay: 0.6))
+          .modifier(DepositAnimationStyle(isAnimating: $isAnimating, delay: 0.6))
         Spacer()
         Button(action: {
           self.isPopup = true
@@ -54,9 +54,9 @@ struct FinanceApp: View {
   }
 }
 
-struct FinanceApp_Previews: PreviewProvider {
+struct DepositApp_Previews: PreviewProvider {
   static var previews: some View {
-    FinanceApp()
+    DepositApp()
   }
 }
 
@@ -274,7 +274,7 @@ struct PopupView: View {
   }
 }
 
-struct FinanceAnimationStyle: ViewModifier {
+struct DepositAnimationStyle: ViewModifier {
   @Binding var isAnimating: Bool
   var delay = 0.0
   
