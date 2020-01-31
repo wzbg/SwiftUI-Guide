@@ -140,6 +140,8 @@
 		45E558B923E2B73900692354 /* 徒手深蹲.gif in Resources */ = {isa = PBXBuildFile; fileRef = 45E558B523E2B73900692354 /* 徒手深蹲.gif */; };
 		45E558BA23E2B73900692354 /* 平板支撑.gif in Resources */ = {isa = PBXBuildFile; fileRef = 45E558B623E2B73900692354 /* 平板支撑.gif */; };
 		45E558BC23E2BE7F00692354 /* FitResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E558BB23E2BE7F00692354 /* FitResultView.swift */; };
+		45E558BE23E3EDBF00692354 /* IceCreamApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E558BD23E3EDBF00692354 /* IceCreamApp.swift */; };
+		45E558C023E418B300692354 /* IceDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E558BF23E418B300692354 /* IceDetailView.swift */; };
 		45EB509F23DE96A2000E3809 /* PrettyAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EB509E23DE96A2000E3809 /* PrettyAnimation.swift */; };
 		45EB50A223DE9D43000E3809 /* SwiftUIPullToRefresh in Frameworks */ = {isa = PBXBuildFile; productRef = 45EB50A123DE9D43000E3809 /* SwiftUIPullToRefresh */; };
 		45EB50A423DEA5F0000E3809 /* PullToRefresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EB50A323DEA5F0000E3809 /* PullToRefresh.swift */; };
@@ -291,6 +293,8 @@
 		45E558B523E2B73900692354 /* 徒手深蹲.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "徒手深蹲.gif"; sourceTree = "<group>"; };
 		45E558B623E2B73900692354 /* 平板支撑.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "平板支撑.gif"; sourceTree = "<group>"; };
 		45E558BB23E2BE7F00692354 /* FitResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitResultView.swift; sourceTree = "<group>"; };
+		45E558BD23E3EDBF00692354 /* IceCreamApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IceCreamApp.swift; sourceTree = "<group>"; };
+		45E558BF23E418B300692354 /* IceDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IceDetailView.swift; sourceTree = "<group>"; };
 		45EB509E23DE96A2000E3809 /* PrettyAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrettyAnimation.swift; sourceTree = "<group>"; };
 		45EB50A323DEA5F0000E3809 /* PullToRefresh.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PullToRefresh.swift; sourceTree = "<group>"; };
 		45F0529623DFF42E004A7195 /* FinanceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceApp.swift; sourceTree = "<group>"; };
@@ -324,6 +328,8 @@
 				4543C1EC23E192BA005BC2B5 /* FoodApp.swift */,
 				45E558A623E29A9F00692354 /* FitnessApp.swift */,
 				45E558BB23E2BE7F00692354 /* FitResultView.swift */,
+				45E558BD23E3EDBF00692354 /* IceCreamApp.swift */,
+				45E558BF23E418B300692354 /* IceDetailView.swift */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -684,6 +690,7 @@
 				45BC262323DC1D1B000E9D64 /* RockRoll.swift in Sources */,
 				45CD88AE23B9E89400885CE5 /* AppDelegate.swift in Sources */,
 				457CDFF423CC1369009B1A96 /* CreateFileView.swift in Sources */,
+				45E558BE23E3EDBF00692354 /* IceCreamApp.swift in Sources */,
 				454E52A923C333AC001156D0 /* Form-Basic.swift in Sources */,
 				45CD88F423BAF4BF00885CE5 /* TabBarView.swift in Sources */,
 				4594D39323C4387F00C8F758 /* Background.swift in Sources */,
@@ -753,6 +760,7 @@
 				459F93E123CC7BC9007F2BC9 /* User+CoreDataProperties.swift in Sources */,
 				45CD88E023B9FF6300885CE5 /* Image-Blend.swift in Sources */,
 				45FBCCFE23CDA03500325614 /* SingletonView.swift in Sources */,
+				45E558C023E418B300692354 /* IceDetailView.swift in Sources */,
 				45CD88FE23BB308000885CE5 /* Shape-Path.swift in Sources */,
 				45CD891423BB51F800885CE5 /* Repeating.swift in Sources */,
 				45CD890623BB3AD000885CE5 /* ScaleEffect-Default.swift in Sources */,
