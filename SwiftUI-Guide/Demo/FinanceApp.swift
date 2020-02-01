@@ -20,15 +20,21 @@ let decimalFormatter: NumberFormatter = {
   return formatter
 }()
 
+struct FinanceBackground: View {
+  var body: some View {
+    Rectangle()
+      .fill(Color(red: 22/255, green: 46/255, blue: 80/255))
+      .edgesIgnoringSafeArea(.all)
+  }
+}
+
 struct FinanceApp: View {
   @State private var isAnimating = false
   
   var body: some View {
     NavigationView {
       ZStack(alignment: .bottomTrailing) {
-        Rectangle()
-          .fill(Color(red: 22/255, green: 46/255, blue: 80/255))
-          .edgesIgnoringSafeArea(.all)
+        FinanceBackground()
         VStack {
           FinanceTitleView()
             .modifier(LogInAnimationStyle(isAnimating: $isAnimating))
@@ -145,7 +151,7 @@ struct ScrollCardView: View {
       HStack(spacing: 0) {
         FinanceCardView(
           cardNo: "****    ****    ****    0553",
-          person: "幻冰",
+          person: "￠幻冰",
           color: Color(red: 81/255, green: 91/255, blue: 251/255),
           expireDate: Date(),
           cardType: .VISA

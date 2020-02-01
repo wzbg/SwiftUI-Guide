@@ -143,6 +143,7 @@
 		45E558BE23E3EDBF00692354 /* IceCreamApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E558BD23E3EDBF00692354 /* IceCreamApp.swift */; };
 		45E558C023E418B300692354 /* IceDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E558BF23E418B300692354 /* IceDetailView.swift */; };
 		45E558C223E4373B00692354 /* FinanceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E558C123E4373B00692354 /* FinanceApp.swift */; };
+		45E558C423E52FDB00692354 /* FinanceProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E558C323E52FDB00692354 /* FinanceProfile.swift */; };
 		45EB509F23DE96A2000E3809 /* PrettyAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EB509E23DE96A2000E3809 /* PrettyAnimation.swift */; };
 		45EB50A223DE9D43000E3809 /* SwiftUIPullToRefresh in Frameworks */ = {isa = PBXBuildFile; productRef = 45EB50A123DE9D43000E3809 /* SwiftUIPullToRefresh */; };
 		45EB50A423DEA5F0000E3809 /* PullToRefresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EB50A323DEA5F0000E3809 /* PullToRefresh.swift */; };
@@ -297,6 +298,7 @@
 		45E558BD23E3EDBF00692354 /* IceCreamApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IceCreamApp.swift; sourceTree = "<group>"; };
 		45E558BF23E418B300692354 /* IceDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IceDetailView.swift; sourceTree = "<group>"; };
 		45E558C123E4373B00692354 /* FinanceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceApp.swift; sourceTree = "<group>"; };
+		45E558C323E52FDB00692354 /* FinanceProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceProfile.swift; sourceTree = "<group>"; };
 		45EB509E23DE96A2000E3809 /* PrettyAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrettyAnimation.swift; sourceTree = "<group>"; };
 		45EB50A323DEA5F0000E3809 /* PullToRefresh.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PullToRefresh.swift; sourceTree = "<group>"; };
 		45F0529623DFF42E004A7195 /* DepositApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepositApp.swift; sourceTree = "<group>"; };
@@ -333,6 +335,7 @@
 				45E558BD23E3EDBF00692354 /* IceCreamApp.swift */,
 				45E558BF23E418B300692354 /* IceDetailView.swift */,
 				45E558C123E4373B00692354 /* FinanceApp.swift */,
+				45E558C323E52FDB00692354 /* FinanceProfile.swift */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -796,6 +799,7 @@
 				4594D39123C4375500C8F758 /* PreviewInNavigationView.swift in Sources */,
 				45CD88C423B9EB2800885CE5 /* Text-Paragraph.swift in Sources */,
 				4588A46423CC63B4003146F1 /* KeyedArchiverView.swift in Sources */,
+				45E558C423E52FDB00692354 /* FinanceProfile.swift in Sources */,
 				45CD88DA23B9FA4E00885CE5 /* Image-Basic.swift in Sources */,
 				457CDFF223CC1094009B1A96 /* CreateFolderView.swift in Sources */,
 				45FBCCFC23CD9EC300325614 /* SingletonClass.swift in Sources */,
