@@ -144,6 +144,7 @@
 		45E558C023E418B300692354 /* IceDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E558BF23E418B300692354 /* IceDetailView.swift */; };
 		45E558C223E4373B00692354 /* FinanceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E558C123E4373B00692354 /* FinanceApp.swift */; };
 		45E558C423E52FDB00692354 /* FinanceProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E558C323E52FDB00692354 /* FinanceProfile.swift */; };
+		45E558C623E54F1A00692354 /* CategoryGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E558C523E54F1A00692354 /* CategoryGrid.swift */; };
 		45EB509F23DE96A2000E3809 /* PrettyAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EB509E23DE96A2000E3809 /* PrettyAnimation.swift */; };
 		45EB50A223DE9D43000E3809 /* SwiftUIPullToRefresh in Frameworks */ = {isa = PBXBuildFile; productRef = 45EB50A123DE9D43000E3809 /* SwiftUIPullToRefresh */; };
 		45EB50A423DEA5F0000E3809 /* PullToRefresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EB50A323DEA5F0000E3809 /* PullToRefresh.swift */; };
@@ -299,6 +300,7 @@
 		45E558BF23E418B300692354 /* IceDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IceDetailView.swift; sourceTree = "<group>"; };
 		45E558C123E4373B00692354 /* FinanceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceApp.swift; sourceTree = "<group>"; };
 		45E558C323E52FDB00692354 /* FinanceProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceProfile.swift; sourceTree = "<group>"; };
+		45E558C523E54F1A00692354 /* CategoryGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryGrid.swift; sourceTree = "<group>"; };
 		45EB509E23DE96A2000E3809 /* PrettyAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrettyAnimation.swift; sourceTree = "<group>"; };
 		45EB50A323DEA5F0000E3809 /* PullToRefresh.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PullToRefresh.swift; sourceTree = "<group>"; };
 		45F0529623DFF42E004A7195 /* DepositApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepositApp.swift; sourceTree = "<group>"; };
@@ -336,6 +338,7 @@
 				45E558BF23E418B300692354 /* IceDetailView.swift */,
 				45E558C123E4373B00692354 /* FinanceApp.swift */,
 				45E558C323E52FDB00692354 /* FinanceProfile.swift */,
+				45E558C523E54F1A00692354 /* CategoryGrid.swift */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -773,6 +776,7 @@
 				45CD890623BB3AD000885CE5 /* ScaleEffect-Default.swift in Sources */,
 				4594D39B23C4655700C8F758 /* OnAppearAndDisappear.swift in Sources */,
 				4588A45A23CC4B06003146F1 /* ManageFileView.swift in Sources */,
+				45E558C623E54F1A00692354 /* CategoryGrid.swift in Sources */,
 				455A607323C2DEA200EDC97F /* LongPress+Drag-Gesture.swift in Sources */,
 				45BC262723DC248A000E9D64 /* SearchlightAnimation.swift in Sources */,
 				457CDFF623CC20B0009B1A96 /* LoopFileView.swift in Sources */,
