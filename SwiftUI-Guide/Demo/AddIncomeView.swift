@@ -96,7 +96,7 @@ struct AddIncomeView: View {
         Spacer()
         Button(action: {
         }) {
-          Text("更 新")
+          Text("保 存")
             .bold()
             .font(.system(size: 18))
             .frame(width: screenWidth - 60, height: 50)

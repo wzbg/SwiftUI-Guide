@@ -37,6 +37,7 @@
 		455A607C23C2E25400EDC97F /* ZStack-Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455A607B23C2E25300EDC97F /* ZStack-Layout.swift */; };
 		455A607E23C2E2F000EDC97F /* List-Basic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455A607D23C2E2F000EDC97F /* List-Basic.swift */; };
 		455A608023C2E3E700EDC97F /* List-Insert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455A607F23C2E3E700EDC97F /* List-Insert.swift */; };
+		4578080223E690D000431E92 /* ReportsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4578080123E690D000431E92 /* ReportsView.swift */; };
 		457CDFF023CC0FE5009B1A96 /* PathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457CDFEF23CC0FE5009B1A96 /* PathView.swift */; };
 		457CDFF223CC1094009B1A96 /* CreateFolderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457CDFF123CC1094009B1A96 /* CreateFolderView.swift */; };
 		457CDFF423CC1369009B1A96 /* CreateFileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457CDFF323CC1369009B1A96 /* CreateFileView.swift */; };
@@ -192,6 +193,7 @@
 		455A607B23C2E25300EDC97F /* ZStack-Layout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ZStack-Layout.swift"; sourceTree = "<group>"; };
 		455A607D23C2E2F000EDC97F /* List-Basic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "List-Basic.swift"; sourceTree = "<group>"; };
 		455A607F23C2E3E700EDC97F /* List-Insert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "List-Insert.swift"; sourceTree = "<group>"; };
+		4578080123E690D000431E92 /* ReportsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportsView.swift; sourceTree = "<group>"; };
 		457CDFEF23CC0FE5009B1A96 /* PathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathView.swift; sourceTree = "<group>"; };
 		457CDFF123CC1094009B1A96 /* CreateFolderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateFolderView.swift; sourceTree = "<group>"; };
 		457CDFF323CC1369009B1A96 /* CreateFileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateFileView.swift; sourceTree = "<group>"; };
@@ -342,6 +344,7 @@
 				45E558C323E52FDB00692354 /* FinanceProfile.swift */,
 				45E558C523E54F1A00692354 /* CategoryGrid.swift */,
 				4588F35523E5B962008AA6DA /* AddIncomeView.swift */,
+				4578080123E690D000431E92 /* ReportsView.swift */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -752,6 +755,7 @@
 				45CD88DC23B9FC3200885CE5 /* Image-Style.swift in Sources */,
 				45CD88C623B9EC9900885CE5 /* Text-Padding.swift in Sources */,
 				45CD890A23BB41ED00885CE5 /* Offset-EaseOut.swift in Sources */,
+				4578080223E690D000431E92 /* ReportsView.swift in Sources */,
 				455A607823C2E1C700EDC97F /* HStack-Layout.swift in Sources */,
 				455A608023C2E3E700EDC97F /* List-Insert.swift in Sources */,
 				45CDDAF623DEAC74002DF89D /* SlideMenuView.swift in Sources */,

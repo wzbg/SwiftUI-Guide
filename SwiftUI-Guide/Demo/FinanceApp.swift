@@ -67,7 +67,9 @@ struct FinanceApp_Previews: PreviewProvider {
 struct FinanceTitleView: View {
   var body: some View {
     HStack {
-      Image(systemName: "list.bullet")
+      NavigationLink(destination: CategoryGrid()) {
+        Image(systemName: "list.bullet")
+      }
       Spacer()
       Text("理 财")
       Spacer()
@@ -92,7 +94,10 @@ struct MyBalanceView: View {
           .font(.system(size: 20))
       }
       Spacer()
-      Image(systemName: "person.circle")
+      NavigationLink(destination: FinanceProfile()) {
+        Image(systemName: "person.circle")
+          .font(.system(size: 20))
+      }
     }.padding(EdgeInsets(top: 20, leading: 20, bottom: 10, trailing: 20))
       .foregroundColor(.white)
   }
@@ -210,24 +215,26 @@ struct TransactionRow: View {
   var price: Double
   
   var body: some View {
-    HStack {
-      VStack(alignment: .leading, spacing: 10) {
-        Text(title)
+    NavigationLink(destination: ReportsView()) {
+      HStack {
+        VStack(alignment: .leading, spacing: 10) {
+          Text(title)
+            .font(.system(size: 20))
+          Text("\(date, formatter: dateFormatte)")
+            .font(.system(size: 14))
+            .foregroundColor(.gray)
+        }
+        Spacer()
+        Text("¥ \(decimalFormatter.string(from: NSNumber(value: price))!)")
+          .bold()
           .font(.system(size: 20))
-        Text("\(date, formatter: dateFormatte)")
-          .font(.system(size: 14))
-          .foregroundColor(.gray)
-      }
-      Spacer()
-      Text("¥ \(decimalFormatter.string(from: NSNumber(value: price))!)")
-        .bold()
-        .font(.system(size: 20))
-        .padding(.trailing, 20)
-      Image(systemName: "chevron.right")
-        .foregroundColor(Color.gray)
-    }.padding()
-    .background(Color.white.opacity(0.04))
-    .cornerRadius(5)
+          .padding(.trailing, 20)
+        Image(systemName: "chevron.right")
+          .foregroundColor(Color.gray)
+      }.padding()
+      .background(Color.white.opacity(0.04))
+      .cornerRadius(5)
+    }
   }
 }
 
@@ -253,15 +260,17 @@ struct TransactionHistoryView: View {
 
 struct FloatPointView: View {
   var body: some View {
-    ZStack {
-      Circle()
-        .fill(Color(red: 81/255, green: 91/255, blue: 251/255))
-        .frame(width: 60, height: 60)
-      Image(systemName: "plus")
-        .font(.system(size: 24))
-        .foregroundColor(.white)
-    }.padding(.trailing, 20)
-    .padding(.bottom, 40)
-    .shadow(radius: 10)
+    NavigationLink(destination: AddIncomeView()) {
+      ZStack {
+        Circle()
+          .fill(Color(red: 81/255, green: 91/255, blue: 251/255))
+          .frame(width: 60, height: 60)
+        Image(systemName: "plus")
+          .font(.system(size: 24))
+          .foregroundColor(.white)
+      }.padding(.trailing, 20)
+      .padding(.bottom, 40)
+      .shadow(radius: 10)
+    }
   }
 }
