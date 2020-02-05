@@ -150,6 +150,7 @@
 		45EB509F23DE96A2000E3809 /* PrettyAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EB509E23DE96A2000E3809 /* PrettyAnimation.swift */; };
 		45EB50A223DE9D43000E3809 /* SwiftUIPullToRefresh in Frameworks */ = {isa = PBXBuildFile; productRef = 45EB50A123DE9D43000E3809 /* SwiftUIPullToRefresh */; };
 		45EB50A423DEA5F0000E3809 /* PullToRefresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EB50A323DEA5F0000E3809 /* PullToRefresh.swift */; };
+		45EFB85723EAB1C500701988 /* FontListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EFB85623EAB1C500701988 /* FontListView.swift */; };
 		45F0529723DFF42E004A7195 /* DepositApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F0529623DFF42E004A7195 /* DepositApp.swift */; };
 		45F0529923E048F6004A7195 /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F0529823E048F6004A7195 /* LogInView.swift */; };
 		45F962EE23DD75AB00E8B9C7 /* Presentation-Mode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F962ED23DD75AB00E8B9C7 /* Presentation-Mode.swift */; };
@@ -307,6 +308,7 @@
 		45E558C523E54F1A00692354 /* CategoryGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryGrid.swift; sourceTree = "<group>"; };
 		45EB509E23DE96A2000E3809 /* PrettyAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrettyAnimation.swift; sourceTree = "<group>"; };
 		45EB50A323DEA5F0000E3809 /* PullToRefresh.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PullToRefresh.swift; sourceTree = "<group>"; };
+		45EFB85623EAB1C500701988 /* FontListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontListView.swift; sourceTree = "<group>"; };
 		45F0529623DFF42E004A7195 /* DepositApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepositApp.swift; sourceTree = "<group>"; };
 		45F0529823E048F6004A7195 /* LogInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInView.swift; sourceTree = "<group>"; };
 		45F962ED23DD75AB00E8B9C7 /* Presentation-Mode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Presentation-Mode.swift"; sourceTree = "<group>"; };
@@ -607,6 +609,7 @@
 		45EFB85323EAAA3300701988 /* Advance */ = {
 			isa = PBXGroup;
 			children = (
+				45EFB85623EAB1C500701988 /* FontListView.swift */,
 			);
 			path = Advance;
 			sourceTree = "<group>";
@@ -711,6 +714,7 @@
 				45CD890C23BB480E00885CE5 /* RotationEffect-Spring.swift in Sources */,
 				455A606B23C2D02800EDC97F /* TapGesture-DoubleTap.swift in Sources */,
 				4543C1ED23E192BA005BC2B5 /* FoodApp.swift in Sources */,
+				45EFB85723EAB1C500701988 /* FontListView.swift in Sources */,
 				45BC262323DC1D1B000E9D64 /* RockRoll.swift in Sources */,
 				45CD88AE23B9E89400885CE5 /* AppDelegate.swift in Sources */,
 				457CDFF423CC1369009B1A96 /* CreateFileView.swift in Sources */,
