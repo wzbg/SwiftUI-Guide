@@ -11,6 +11,7 @@
 		4543C1EA23E151E3005BC2B5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4543C1E923E151E3005BC2B5 /* Constants.swift */; };
 		4543C1ED23E192BA005BC2B5 /* FoodApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4543C1EC23E192BA005BC2B5 /* FoodApp.swift */; };
 		454685AD23EAD373005FCBC5 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 454685AC23EAD373005FCBC5 /* Settings.bundle */; };
+		454685AF23EADF44005FCBC5 /* GyroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454685AE23EADF44005FCBC5 /* GyroView.swift */; };
 		454E529D23C325AE001156D0 /* List-Delete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454E529C23C325AE001156D0 /* List-Delete.swift */; };
 		454E529F23C32813001156D0 /* List-Move.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454E529E23C32813001156D0 /* List-Move.swift */; };
 		454E52A123C32AA7001156D0 /* List-Delete+Move.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454E52A023C32AA7001156D0 /* List-Delete+Move.swift */; };
@@ -169,6 +170,7 @@
 		4543C1E923E151E3005BC2B5 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		4543C1EC23E192BA005BC2B5 /* FoodApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodApp.swift; sourceTree = "<group>"; };
 		454685AC23EAD373005FCBC5 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		454685AE23EADF44005FCBC5 /* GyroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GyroView.swift; sourceTree = "<group>"; };
 		454E529C23C325AE001156D0 /* List-Delete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "List-Delete.swift"; sourceTree = "<group>"; };
 		454E529E23C32813001156D0 /* List-Move.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "List-Move.swift"; sourceTree = "<group>"; };
 		454E52A023C32AA7001156D0 /* List-Delete+Move.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "List-Delete+Move.swift"; sourceTree = "<group>"; };
@@ -613,6 +615,7 @@
 			isa = PBXGroup;
 			children = (
 				45EFB85623EAB1C500701988 /* FontListView.swift */,
+				454685AE23EADF44005FCBC5 /* GyroView.swift */,
 			);
 			path = Advance;
 			sourceTree = "<group>";
@@ -785,6 +788,7 @@
 				45CD88E623BA048500885CE5 /* Image-Web.swift in Sources */,
 				45CD891623BB552200885CE5 /* ToggleVisibility.swift in Sources */,
 				45CD88E823BAE51200885CE5 /* PickerView.swift in Sources */,
+				454685AF23EADF44005FCBC5 /* GyroView.swift in Sources */,
 				45CDDAFC23DEE51B002DF89D /* LightApp.swift in Sources */,
 				45CD88C823B9ED2C00885CE5 /* Text-FullScreen.swift in Sources */,
 				45CD890E23BB492300885CE5 /* CombinedAnimation.swift in Sources */,
