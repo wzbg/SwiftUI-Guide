@@ -477,6 +477,7 @@
 				459F93E223CC7BDE007F2BC9 /* CodeData */,
 				45EB509D23DE95FE000E3809 /* Combat */,
 				4543C1EB23E1921C005BC2B5 /* Demo */,
+				45EFB85323EAAA3300701988 /* Advance */,
 			);
 			path = "SwiftUI-Guide";
 			sourceTree = "<group>";
@@ -601,6 +602,13 @@
 				4543C1E923E151E3005BC2B5 /* Constants.swift */,
 			);
 			path = Combat;
+			sourceTree = "<group>";
+		};
+		45EFB85323EAAA3300701988 /* Advance */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Advance;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
