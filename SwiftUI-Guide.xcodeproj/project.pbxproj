@@ -14,6 +14,7 @@
 		454685AF23EADF44005FCBC5 /* GyroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454685AE23EADF44005FCBC5 /* GyroView.swift */; };
 		454685B123EAE844005FCBC5 /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454685B023EAE844005FCBC5 /* LocationView.swift */; };
 		454685B423EB24AE005FCBC5 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454685B323EB24AE005FCBC5 /* LocationManager.swift */; };
+		454685B623EBFAD7005FCBC5 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454685B523EBFAD7005FCBC5 /* NotificationView.swift */; };
 		454E529D23C325AE001156D0 /* List-Delete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454E529C23C325AE001156D0 /* List-Delete.swift */; };
 		454E529F23C32813001156D0 /* List-Move.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454E529E23C32813001156D0 /* List-Move.swift */; };
 		454E52A123C32AA7001156D0 /* List-Delete+Move.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454E52A023C32AA7001156D0 /* List-Delete+Move.swift */; };
@@ -175,6 +176,7 @@
 		454685AE23EADF44005FCBC5 /* GyroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GyroView.swift; sourceTree = "<group>"; };
 		454685B023EAE844005FCBC5 /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
 		454685B323EB24AE005FCBC5 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		454685B523EBFAD7005FCBC5 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
 		454E529C23C325AE001156D0 /* List-Delete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "List-Delete.swift"; sourceTree = "<group>"; };
 		454E529E23C32813001156D0 /* List-Move.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "List-Move.swift"; sourceTree = "<group>"; };
 		454E52A023C32AA7001156D0 /* List-Delete+Move.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "List-Delete+Move.swift"; sourceTree = "<group>"; };
@@ -630,6 +632,7 @@
 				45EFB85623EAB1C500701988 /* FontListView.swift */,
 				454685AE23EADF44005FCBC5 /* GyroView.swift */,
 				454685B223EB2489005FCBC5 /* Location */,
+				454685B523EBFAD7005FCBC5 /* NotificationView.swift */,
 			);
 			path = Advance;
 			sourceTree = "<group>";
@@ -848,6 +851,7 @@
 				45CD88C423B9EB2800885CE5 /* Text-Paragraph.swift in Sources */,
 				4588A46423CC63B4003146F1 /* KeyedArchiverView.swift in Sources */,
 				45E558C423E52FDB00692354 /* FinanceProfile.swift in Sources */,
+				454685B623EBFAD7005FCBC5 /* NotificationView.swift in Sources */,
 				45CD88DA23B9FA4E00885CE5 /* Image-Basic.swift in Sources */,
 				457CDFF223CC1094009B1A96 /* CreateFolderView.swift in Sources */,
 				45FBCCFC23CD9EC300325614 /* SingletonClass.swift in Sources */,

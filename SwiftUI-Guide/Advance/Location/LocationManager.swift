@@ -5,6 +5,7 @@
 //  Created by huanbing on 2020/2/6.
 //  Copyright © 2020 unrealce. All rights reserved.
 //
+// https://adrianhall.github.io/swift/2019/11/05/swiftui-location/
 
 import Combine
 import CoreLocation
