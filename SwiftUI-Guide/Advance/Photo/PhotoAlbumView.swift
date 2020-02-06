@@ -9,22 +9,25 @@
 import SwiftUI
 
 struct PhotoAlbumView: View {
-  @State var showImagePicker: Bool = false
+  @State var showImagePicker = false
   @State var image: Image? = nil
-
+  @State var sourceType: UIImagePickerController.SourceType?
+  
   var body: some View {
-    ZStack {
-      VStack {
-        Button("选择一张图片") {
-          withAnimation {
-            self.showImagePicker.toggle()
-          }
-        }
-        image?.resizable().scaledToFit().padding()
+    VStack {
+      Button("拍照") {
+        self.sourceType = .camera
+        self.showImagePicker = true
       }
-      .sheet(isPresented: $showImagePicker) {
-        ImagePicker(image: self.$image)
+      .padding()
+      Button("从手机相册选择") {
+        self.sourceType = .photoLibrary
+        self.showImagePicker = true
       }
+      image?.resizable().scaledToFit().padding()
+    }
+    .sheet(isPresented: $showImagePicker) {
+      ImagePicker(image: self.$image, sourceType: self.sourceType)
     }
   }
 }

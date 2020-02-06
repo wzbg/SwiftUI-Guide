@@ -12,6 +12,7 @@ import SwiftUI
 struct ImagePicker: UIViewControllerRepresentable {
   @Environment(\.presentationMode) var presentationMode
   @Binding var image: Image?
+  var sourceType: UIImagePickerController.SourceType?
 
   class Coordinator: NSObject, UINavigationControllerDelegate, UIImagePickerControllerDelegate {
     @Binding var presentationMode: PresentationMode
@@ -41,7 +42,9 @@ struct ImagePicker: UIViewControllerRepresentable {
     let picker = UIImagePickerController()
     picker.delegate = context.coordinator
 //    picker.allowsEditing = true
-    picker.sourceType = .camera
+    if let sourceType = sourceType {
+      picker.sourceType = sourceType
+    }
     return picker
   }
 
