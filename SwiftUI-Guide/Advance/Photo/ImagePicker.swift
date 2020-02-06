@@ -23,7 +23,7 @@ struct ImagePicker: UIViewControllerRepresentable {
     }
 
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
-      let uiImage = info[UIImagePickerController.InfoKey.originalImage] as! UIImage
+      let uiImage = info[.originalImage] as! UIImage
       image = Image(uiImage: uiImage)
       presentationMode.dismiss()
     }
@@ -40,6 +40,8 @@ struct ImagePicker: UIViewControllerRepresentable {
   func makeUIViewController(context: UIViewControllerRepresentableContext<ImagePicker>) -> UIImagePickerController {
     let picker = UIImagePickerController()
     picker.delegate = context.coordinator
+//    picker.allowsEditing = true
+    picker.sourceType = .camera
     return picker
   }
 
