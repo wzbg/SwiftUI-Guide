@@ -15,6 +15,8 @@
 		454685B123EAE844005FCBC5 /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454685B023EAE844005FCBC5 /* LocationView.swift */; };
 		454685B423EB24AE005FCBC5 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454685B323EB24AE005FCBC5 /* LocationManager.swift */; };
 		454685B623EBFAD7005FCBC5 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454685B523EBFAD7005FCBC5 /* NotificationView.swift */; };
+		454685B823EC1958005FCBC5 /* PhotoAlbumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454685B723EC1958005FCBC5 /* PhotoAlbumView.swift */; };
+		454685BB23EC2EB2005FCBC5 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454685BA23EC2EB2005FCBC5 /* ImagePicker.swift */; };
 		454E529D23C325AE001156D0 /* List-Delete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454E529C23C325AE001156D0 /* List-Delete.swift */; };
 		454E529F23C32813001156D0 /* List-Move.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454E529E23C32813001156D0 /* List-Move.swift */; };
 		454E52A123C32AA7001156D0 /* List-Delete+Move.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454E52A023C32AA7001156D0 /* List-Delete+Move.swift */; };
@@ -177,6 +179,8 @@
 		454685B023EAE844005FCBC5 /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
 		454685B323EB24AE005FCBC5 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		454685B523EBFAD7005FCBC5 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		454685B723EC1958005FCBC5 /* PhotoAlbumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoAlbumView.swift; sourceTree = "<group>"; };
+		454685BA23EC2EB2005FCBC5 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		454E529C23C325AE001156D0 /* List-Delete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "List-Delete.swift"; sourceTree = "<group>"; };
 		454E529E23C32813001156D0 /* List-Move.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "List-Move.swift"; sourceTree = "<group>"; };
 		454E52A023C32AA7001156D0 /* List-Delete+Move.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "List-Delete+Move.swift"; sourceTree = "<group>"; };
@@ -368,6 +372,15 @@
 				454685B023EAE844005FCBC5 /* LocationView.swift */,
 			);
 			path = Location;
+			sourceTree = "<group>";
+		};
+		454685B923EC2E72005FCBC5 /* Photo */ = {
+			isa = PBXGroup;
+			children = (
+				454685BA23EC2EB2005FCBC5 /* ImagePicker.swift */,
+				454685B723EC1958005FCBC5 /* PhotoAlbumView.swift */,
+			);
+			path = Photo;
 			sourceTree = "<group>";
 		};
 		454E52B023C33C7C001156D0 /* DataFlow */ = {
@@ -633,6 +646,7 @@
 				454685AE23EADF44005FCBC5 /* GyroView.swift */,
 				454685B223EB2489005FCBC5 /* Location */,
 				454685B523EBFAD7005FCBC5 /* NotificationView.swift */,
+				454685B923EC2E72005FCBC5 /* Photo */,
 			);
 			path = Advance;
 			sourceTree = "<group>";
@@ -737,6 +751,7 @@
 				45CDDAF823DEBC1F002DF89D /* TeachApp.swift in Sources */,
 				45CD890C23BB480E00885CE5 /* RotationEffect-Spring.swift in Sources */,
 				455A606B23C2D02800EDC97F /* TapGesture-DoubleTap.swift in Sources */,
+				454685B823EC1958005FCBC5 /* PhotoAlbumView.swift in Sources */,
 				4543C1ED23E192BA005BC2B5 /* FoodApp.swift in Sources */,
 				45EFB85723EAB1C500701988 /* FontListView.swift in Sources */,
 				45BC262323DC1D1B000E9D64 /* RockRoll.swift in Sources */,
@@ -788,6 +803,7 @@
 				45BC261523D6B8D5000E9D64 /* Image-Mirror.swift in Sources */,
 				45BC263523DC6081000E9D64 /* ContextMenu.swift in Sources */,
 				454E52A323C32CAF001156D0 /* ScrollView-Vertical.swift in Sources */,
+				454685BB23EC2EB2005FCBC5 /* ImagePicker.swift in Sources */,
 				45CD891223BB505100885CE5 /* SpeadAndDelay.swift in Sources */,
 				454E52B823C421D7001156D0 /* ObjectBinding.swift in Sources */,
 				45CD88DC23B9FC3200885CE5 /* Image-Style.swift in Sources */,

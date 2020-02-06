@@ -5,6 +5,7 @@
 //  Created by huanbing on 2020/2/6.
 //  Copyright © 2020 unrealce. All rights reserved.
 //
+// https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/index.html#//apple_ref/doc/uid/TP40008194-CH3-SW1
 
 import SwiftUI
 
