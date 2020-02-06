@@ -12,6 +12,8 @@
 		4543C1ED23E192BA005BC2B5 /* FoodApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4543C1EC23E192BA005BC2B5 /* FoodApp.swift */; };
 		454685AD23EAD373005FCBC5 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 454685AC23EAD373005FCBC5 /* Settings.bundle */; };
 		454685AF23EADF44005FCBC5 /* GyroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454685AE23EADF44005FCBC5 /* GyroView.swift */; };
+		454685B123EAE844005FCBC5 /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454685B023EAE844005FCBC5 /* LocationView.swift */; };
+		454685B423EB24AE005FCBC5 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454685B323EB24AE005FCBC5 /* LocationManager.swift */; };
 		454E529D23C325AE001156D0 /* List-Delete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454E529C23C325AE001156D0 /* List-Delete.swift */; };
 		454E529F23C32813001156D0 /* List-Move.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454E529E23C32813001156D0 /* List-Move.swift */; };
 		454E52A123C32AA7001156D0 /* List-Delete+Move.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454E52A023C32AA7001156D0 /* List-Delete+Move.swift */; };
@@ -171,6 +173,8 @@
 		4543C1EC23E192BA005BC2B5 /* FoodApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodApp.swift; sourceTree = "<group>"; };
 		454685AC23EAD373005FCBC5 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		454685AE23EADF44005FCBC5 /* GyroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GyroView.swift; sourceTree = "<group>"; };
+		454685B023EAE844005FCBC5 /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
+		454685B323EB24AE005FCBC5 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		454E529C23C325AE001156D0 /* List-Delete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "List-Delete.swift"; sourceTree = "<group>"; };
 		454E529E23C32813001156D0 /* List-Move.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "List-Move.swift"; sourceTree = "<group>"; };
 		454E52A023C32AA7001156D0 /* List-Delete+Move.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "List-Delete+Move.swift"; sourceTree = "<group>"; };
@@ -353,6 +357,15 @@
 				4578080123E690D000431E92 /* ReportsView.swift */,
 			);
 			path = Demo;
+			sourceTree = "<group>";
+		};
+		454685B223EB2489005FCBC5 /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				454685B323EB24AE005FCBC5 /* LocationManager.swift */,
+				454685B023EAE844005FCBC5 /* LocationView.swift */,
+			);
+			path = Location;
 			sourceTree = "<group>";
 		};
 		454E52B023C33C7C001156D0 /* DataFlow */ = {
@@ -616,6 +629,7 @@
 			children = (
 				45EFB85623EAB1C500701988 /* FontListView.swift */,
 				454685AE23EADF44005FCBC5 /* GyroView.swift */,
+				454685B223EB2489005FCBC5 /* Location */,
 			);
 			path = Advance;
 			sourceTree = "<group>";
@@ -739,6 +753,7 @@
 				454E52AB23C337F9001156D0 /* Form-Segment.swift in Sources */,
 				45F0529723DFF42E004A7195 /* DepositApp.swift in Sources */,
 				45F0529923E048F6004A7195 /* LogInView.swift in Sources */,
+				454685B423EB24AE005FCBC5 /* LocationManager.swift in Sources */,
 				45CD890023BB33A700885CE5 /* Linear-Gradient.swift in Sources */,
 				45CD891823BB57D400885CE5 /* AsymmetricTransition.swift in Sources */,
 				45CD890423BB39B500885CE5 /* Radial-Gradient.swift in Sources */,
@@ -765,6 +780,7 @@
 				45CD88CE23B9EFC400885CE5 /* Text-TextField.swift in Sources */,
 				45BC262923DC2785000E9D64 /* RotateFlower.swift in Sources */,
 				4588A45C23CC5152003146F1 /* UserDefaultsView.swift in Sources */,
+				454685B123EAE844005FCBC5 /* LocationView.swift in Sources */,
 				45CD88D223B9F22700885CE5 /* Button-Basic.swift in Sources */,
 				45BC261523D6B8D5000E9D64 /* Image-Mirror.swift in Sources */,
 				45BC263523DC6081000E9D64 /* ContextMenu.swift in Sources */,
