@@ -5,4 +5,7 @@
   Created by huanbing on 2020/2/7.
   Copyright © 2020 unrealce. All rights reserved.
 */
-"avatar"="头 像";
+"avatar"        = "头 像";
+"WiFi"          = "无线网络";
+"Cellular"      = "蜂窝网络";
+"No Connection" = "无网络";
