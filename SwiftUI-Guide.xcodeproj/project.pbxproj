@@ -14,6 +14,7 @@
 		45459F9D23ED6011008B16F0 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 45459F9F23ED6011008B16F0 /* Localizable.strings */; };
 		45459FA323ED6E5F008B16F0 /* Reachability in Frameworks */ = {isa = PBXBuildFile; productRef = 45459FA223ED6E5F008B16F0 /* Reachability */; };
 		45459FA623ED6EF4008B16F0 /* ReachabilityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45459FA523ED6EF4008B16F0 /* ReachabilityView.swift */; };
+		45459FA823ED9420008B16F0 /* OpenURLView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45459FA723ED9420008B16F0 /* OpenURLView.swift */; };
 		454685AD23EAD373005FCBC5 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 454685AC23EAD373005FCBC5 /* Settings.bundle */; };
 		454685AF23EADF44005FCBC5 /* GyroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454685AE23EADF44005FCBC5 /* GyroView.swift */; };
 		454685B123EAE844005FCBC5 /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454685B023EAE844005FCBC5 /* LocationView.swift */; };
@@ -183,6 +184,7 @@
 		45459F9E23ED6011008B16F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		45459FA023ED6045008B16F0 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		45459FA523ED6EF4008B16F0 /* ReachabilityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReachabilityView.swift; sourceTree = "<group>"; };
+		45459FA723ED9420008B16F0 /* OpenURLView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenURLView.swift; sourceTree = "<group>"; };
 		454685AC23EAD373005FCBC5 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		454685AE23EADF44005FCBC5 /* GyroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GyroView.swift; sourceTree = "<group>"; };
 		454685B023EAE844005FCBC5 /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
@@ -380,6 +382,7 @@
 			isa = PBXGroup;
 			children = (
 				45459FA523ED6EF4008B16F0 /* ReachabilityView.swift */,
+				45459FA723ED9420008B16F0 /* OpenURLView.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -831,6 +834,7 @@
 				45CD88D223B9F22700885CE5 /* Button-Basic.swift in Sources */,
 				45BC261523D6B8D5000E9D64 /* Image-Mirror.swift in Sources */,
 				45BC263523DC6081000E9D64 /* ContextMenu.swift in Sources */,
+				45459FA823ED9420008B16F0 /* OpenURLView.swift in Sources */,
 				454E52A323C32CAF001156D0 /* ScrollView-Vertical.swift in Sources */,
 				454685BB23EC2EB2005FCBC5 /* ImagePicker.swift in Sources */,
 				45CD891223BB505100885CE5 /* SpeadAndDelay.swift in Sources */,
