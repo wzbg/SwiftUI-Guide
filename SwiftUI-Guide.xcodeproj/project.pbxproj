@@ -12,6 +12,8 @@
 		4543C1ED23E192BA005BC2B5 /* FoodApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4543C1EC23E192BA005BC2B5 /* FoodApp.swift */; };
 		45459F9723ED2621008B16F0 /* FaceDetectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45459F9623ED2621008B16F0 /* FaceDetectorView.swift */; };
 		45459F9D23ED6011008B16F0 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 45459F9F23ED6011008B16F0 /* Localizable.strings */; };
+		45459FA323ED6E5F008B16F0 /* Reachability in Frameworks */ = {isa = PBXBuildFile; productRef = 45459FA223ED6E5F008B16F0 /* Reachability */; };
+		45459FA623ED6EF4008B16F0 /* ReachabilityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45459FA523ED6EF4008B16F0 /* ReachabilityView.swift */; };
 		454685AD23EAD373005FCBC5 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 454685AC23EAD373005FCBC5 /* Settings.bundle */; };
 		454685AF23EADF44005FCBC5 /* GyroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454685AE23EADF44005FCBC5 /* GyroView.swift */; };
 		454685B123EAE844005FCBC5 /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454685B023EAE844005FCBC5 /* LocationView.swift */; };
@@ -180,6 +182,7 @@
 		45459F9623ED2621008B16F0 /* FaceDetectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceDetectorView.swift; sourceTree = "<group>"; };
 		45459F9E23ED6011008B16F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		45459FA023ED6045008B16F0 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		45459FA523ED6EF4008B16F0 /* ReachabilityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReachabilityView.swift; sourceTree = "<group>"; };
 		454685AC23EAD373005FCBC5 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		454685AE23EADF44005FCBC5 /* GyroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GyroView.swift; sourceTree = "<group>"; };
 		454685B023EAE844005FCBC5 /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
@@ -348,6 +351,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				45EB50A223DE9D43000E3809 /* SwiftUIPullToRefresh in Frameworks */,
+				45459FA323ED6E5F008B16F0 /* Reachability in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,6 +374,14 @@
 				4578080123E690D000431E92 /* ReportsView.swift */,
 			);
 			path = Demo;
+			sourceTree = "<group>";
+		};
+		45459FA423ED6EC9008B16F0 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				45459FA523ED6EF4008B16F0 /* ReachabilityView.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 		454685B223EB2489005FCBC5 /* Location */ = {
@@ -519,6 +531,7 @@
 				45EB509D23DE95FE000E3809 /* Combat */,
 				4543C1EB23E1921C005BC2B5 /* Demo */,
 				45EFB85323EAAA3300701988 /* Advance */,
+				45459FA423ED6EC9008B16F0 /* Network */,
 				454685AC23EAD373005FCBC5 /* Settings.bundle */,
 				45459F9F23ED6011008B16F0 /* Localizable.strings */,
 			);
@@ -679,6 +692,7 @@
 			name = "SwiftUI-Guide";
 			packageProductDependencies = (
 				45EB50A123DE9D43000E3809 /* SwiftUIPullToRefresh */,
+				45459FA223ED6E5F008B16F0 /* Reachability */,
 			);
 			productName = "SwiftUI-Guide";
 			productReference = 45CD88AA23B9E89400885CE5 /* SwiftUI-Guide.app */;
@@ -711,6 +725,7 @@
 			mainGroup = 45CD88A123B9E89400885CE5;
 			packageReferences = (
 				45EB50A023DE9D43000E3809 /* XCRemoteSwiftPackageReference "SwiftUI-PullToRefresh" */,
+				45459FA123ED6E5F008B16F0 /* XCRemoteSwiftPackageReference "Reachability" */,
 			);
 			productRefGroup = 45CD88AB23B9E89400885CE5 /* Products */;
 			projectDirPath = "";
@@ -749,6 +764,7 @@
 				45BC261B23DAF60B000E9D64 /* HueRotationBrightness.swift in Sources */,
 				45CD88D623B9F8E300885CE5 /* SpacerView.swift in Sources */,
 				45F962F023DD894B00E8B9C7 /* BindingView.swift in Sources */,
+				45459FA623ED6EF4008B16F0 /* ReachabilityView.swift in Sources */,
 				45CDDAFA23DED2EB002DF89D /* GameApp.swift in Sources */,
 				45E558C223E4373B00692354 /* FinanceApp.swift in Sources */,
 				45F962F423DDACF900E8B9C7 /* Presentation-Modal.swift in Sources */,
@@ -1105,6 +1121,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		45459FA123ED6E5F008B16F0 /* XCRemoteSwiftPackageReference "Reachability" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ashleymills/Reachability.swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
 		45EB50A023DE9D43000E3809 /* XCRemoteSwiftPackageReference "SwiftUI-PullToRefresh" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/AppPear/SwiftUI-PullToRefresh";
@@ -1116,6 +1140,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		45459FA223ED6E5F008B16F0 /* Reachability */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 45459FA123ED6E5F008B16F0 /* XCRemoteSwiftPackageReference "Reachability" */;
+			productName = Reachability;
+		};
 		45EB50A123DE9D43000E3809 /* SwiftUIPullToRefresh */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 45EB50A023DE9D43000E3809 /* XCRemoteSwiftPackageReference "SwiftUI-PullToRefresh" */;
