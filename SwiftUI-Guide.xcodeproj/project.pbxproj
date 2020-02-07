@@ -15,6 +15,8 @@
 		45459FA323ED6E5F008B16F0 /* Reachability in Frameworks */ = {isa = PBXBuildFile; productRef = 45459FA223ED6E5F008B16F0 /* Reachability */; };
 		45459FA623ED6EF4008B16F0 /* ReachabilityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45459FA523ED6EF4008B16F0 /* ReachabilityView.swift */; };
 		45459FA823ED9420008B16F0 /* OpenURLView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45459FA723ED9420008B16F0 /* OpenURLView.swift */; };
+		45459FAA23EDA5EC008B16F0 /* MailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45459FA923EDA5EC008B16F0 /* MailView.swift */; };
+		45459FAD23EDBA86008B16F0 /* MailBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45459FAC23EDBA86008B16F0 /* MailBox.swift */; };
 		454685AD23EAD373005FCBC5 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 454685AC23EAD373005FCBC5 /* Settings.bundle */; };
 		454685AF23EADF44005FCBC5 /* GyroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454685AE23EADF44005FCBC5 /* GyroView.swift */; };
 		454685B123EAE844005FCBC5 /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454685B023EAE844005FCBC5 /* LocationView.swift */; };
@@ -185,6 +187,8 @@
 		45459FA023ED6045008B16F0 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		45459FA523ED6EF4008B16F0 /* ReachabilityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReachabilityView.swift; sourceTree = "<group>"; };
 		45459FA723ED9420008B16F0 /* OpenURLView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenURLView.swift; sourceTree = "<group>"; };
+		45459FA923EDA5EC008B16F0 /* MailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailView.swift; sourceTree = "<group>"; };
+		45459FAC23EDBA86008B16F0 /* MailBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailBox.swift; sourceTree = "<group>"; };
 		454685AC23EAD373005FCBC5 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		454685AE23EADF44005FCBC5 /* GyroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GyroView.swift; sourceTree = "<group>"; };
 		454685B023EAE844005FCBC5 /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
@@ -383,8 +387,18 @@
 			children = (
 				45459FA523ED6EF4008B16F0 /* ReachabilityView.swift */,
 				45459FA723ED9420008B16F0 /* OpenURLView.swift */,
+				45459FAB23EDB0D1008B16F0 /* mail */,
 			);
 			path = Network;
+			sourceTree = "<group>";
+		};
+		45459FAB23EDB0D1008B16F0 /* mail */ = {
+			isa = PBXGroup;
+			children = (
+				45459FAC23EDBA86008B16F0 /* MailBox.swift */,
+				45459FA923EDA5EC008B16F0 /* MailView.swift */,
+			);
+			path = mail;
 			sourceTree = "<group>";
 		};
 		454685B223EB2489005FCBC5 /* Location */ = {
@@ -836,6 +850,7 @@
 				45BC263523DC6081000E9D64 /* ContextMenu.swift in Sources */,
 				45459FA823ED9420008B16F0 /* OpenURLView.swift in Sources */,
 				454E52A323C32CAF001156D0 /* ScrollView-Vertical.swift in Sources */,
+				45459FAA23EDA5EC008B16F0 /* MailView.swift in Sources */,
 				454685BB23EC2EB2005FCBC5 /* ImagePicker.swift in Sources */,
 				45CD891223BB505100885CE5 /* SpeadAndDelay.swift in Sources */,
 				454E52B823C421D7001156D0 /* ObjectBinding.swift in Sources */,
@@ -903,6 +918,7 @@
 				454685B623EBFAD7005FCBC5 /* NotificationView.swift in Sources */,
 				45CD88DA23B9FA4E00885CE5 /* Image-Basic.swift in Sources */,
 				457CDFF223CC1094009B1A96 /* CreateFolderView.swift in Sources */,
+				45459FAD23EDBA86008B16F0 /* MailBox.swift in Sources */,
 				45459F9723ED2621008B16F0 /* FaceDetectorView.swift in Sources */,
 				45FBCCFC23CD9EC300325614 /* SingletonClass.swift in Sources */,
 				45BC262F23DC51DA000E9D64 /* Sequence-Gesture.swift in Sources */,
