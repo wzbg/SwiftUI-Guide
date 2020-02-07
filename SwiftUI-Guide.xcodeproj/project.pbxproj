@@ -11,6 +11,7 @@
 		4543C1EA23E151E3005BC2B5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4543C1E923E151E3005BC2B5 /* Constants.swift */; };
 		4543C1ED23E192BA005BC2B5 /* FoodApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4543C1EC23E192BA005BC2B5 /* FoodApp.swift */; };
 		45459F9723ED2621008B16F0 /* FaceDetectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45459F9623ED2621008B16F0 /* FaceDetectorView.swift */; };
+		45459F9D23ED6011008B16F0 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 45459F9F23ED6011008B16F0 /* Localizable.strings */; };
 		454685AD23EAD373005FCBC5 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 454685AC23EAD373005FCBC5 /* Settings.bundle */; };
 		454685AF23EADF44005FCBC5 /* GyroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454685AE23EADF44005FCBC5 /* GyroView.swift */; };
 		454685B123EAE844005FCBC5 /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454685B023EAE844005FCBC5 /* LocationView.swift */; };
@@ -177,7 +178,8 @@
 		4543C1E923E151E3005BC2B5 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		4543C1EC23E192BA005BC2B5 /* FoodApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodApp.swift; sourceTree = "<group>"; };
 		45459F9623ED2621008B16F0 /* FaceDetectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceDetectorView.swift; sourceTree = "<group>"; };
-		45459F9A23ED5810008B16F0 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		45459F9E23ED6011008B16F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		45459FA023ED6045008B16F0 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		454685AC23EAD373005FCBC5 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		454685AE23EADF44005FCBC5 /* GyroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GyroView.swift; sourceTree = "<group>"; };
 		454685B023EAE844005FCBC5 /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
@@ -518,6 +520,7 @@
 				4543C1EB23E1921C005BC2B5 /* Demo */,
 				45EFB85323EAAA3300701988 /* Advance */,
 				454685AC23EAD373005FCBC5 /* Settings.bundle */,
+				45459F9F23ED6011008B16F0 /* Localizable.strings */,
 			);
 			path = "SwiftUI-Guide";
 			sourceTree = "<group>";
@@ -728,6 +731,7 @@
 				45E558B923E2B73900692354 /* 徒手深蹲.gif in Resources */,
 				45CD88B723B9E89800885CE5 /* Preview Assets.xcassets in Resources */,
 				45E558B723E2B73900692354 /* 俯卧撑.gif in Resources */,
+				45459F9D23ED6011008B16F0 /* Localizable.strings in Resources */,
 				4588A46023CC5AFA003146F1 /* DemoPlist.plist in Resources */,
 				45E558BA23E2B73900692354 /* 平板支撑.gif in Resources */,
 				454685AD23EAD373005FCBC5 /* Settings.bundle in Resources */,
@@ -901,11 +905,19 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		45459F9F23ED6011008B16F0 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45459F9E23ED6011008B16F0 /* en */,
+				45459FA023ED6045008B16F0 /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		45CD88B823B9E89800885CE5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				45CD88B923B9E89800885CE5 /* Base */,
-				45459F9A23ED5810008B16F0 /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";

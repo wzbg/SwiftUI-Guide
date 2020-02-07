@@ -16,7 +16,7 @@ struct PhotoAlbumView: View {
   
   var body: some View {
     VStack {
-      Button("换头像") {
+      Button(NSLocalizedString("avatar", comment: "头像")) {
         self.showActionSheet = true
       }
       image?.resizable().scaledToFit().padding()
