@@ -17,7 +17,7 @@ struct OpenURLView: View {
         .textFieldStyle(RoundedBorderTextFieldStyle())
       Button("打开网页") {
         if let url = URL(string: self.website) {
-          UIApplication.shared.openURL(url)
+          UIApplication.shared.open(url)
         }
       }
     }.padding()
