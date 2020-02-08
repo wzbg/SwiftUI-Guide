@@ -18,6 +18,7 @@
 		45459FAA23EDA5EC008B16F0 /* MailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45459FA923EDA5EC008B16F0 /* MailView.swift */; };
 		45459FAD23EDBA86008B16F0 /* MailBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45459FAC23EDBA86008B16F0 /* MailBox.swift */; };
 		45459FAF23EE87E2008B16F0 /* SourceCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45459FAE23EE87E2008B16F0 /* SourceCodeView.swift */; };
+		45459FB123EE8CB6008B16F0 /* GitHubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45459FB023EE8CB6008B16F0 /* GitHubView.swift */; };
 		454685AD23EAD373005FCBC5 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 454685AC23EAD373005FCBC5 /* Settings.bundle */; };
 		454685AF23EADF44005FCBC5 /* GyroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454685AE23EADF44005FCBC5 /* GyroView.swift */; };
 		454685B123EAE844005FCBC5 /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454685B023EAE844005FCBC5 /* LocationView.swift */; };
@@ -191,6 +192,7 @@
 		45459FA923EDA5EC008B16F0 /* MailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailView.swift; sourceTree = "<group>"; };
 		45459FAC23EDBA86008B16F0 /* MailBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailBox.swift; sourceTree = "<group>"; };
 		45459FAE23EE87E2008B16F0 /* SourceCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceCodeView.swift; sourceTree = "<group>"; };
+		45459FB023EE8CB6008B16F0 /* GitHubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubView.swift; sourceTree = "<group>"; };
 		454685AC23EAD373005FCBC5 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		454685AE23EADF44005FCBC5 /* GyroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GyroView.swift; sourceTree = "<group>"; };
 		454685B023EAE844005FCBC5 /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
@@ -391,6 +393,7 @@
 				45459FA723ED9420008B16F0 /* OpenURLView.swift */,
 				45459FAB23EDB0D1008B16F0 /* mail */,
 				45459FAE23EE87E2008B16F0 /* SourceCodeView.swift */,
+				45459FB023EE8CB6008B16F0 /* GitHubView.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -904,6 +907,7 @@
 				4594D39723C4642500C8F758 /* Preview-Device.swift in Sources */,
 				45CD88F223BAF19000885CE5 /* ToggleView.swift in Sources */,
 				459F93E023CC7BC9007F2BC9 /* User+CoreDataClass.swift in Sources */,
+				45459FB123EE8CB6008B16F0 /* GitHubView.swift in Sources */,
 				454E52B223C33CFE001156D0 /* NavigationLink-DataFlow.swift in Sources */,
 				45FBCCD323CD587400325614 /* CoreDataView.swift in Sources */,
 				45BC261723D6DD31000E9D64 /* Shape-Capsule.swift in Sources */,
