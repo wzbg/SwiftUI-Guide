@@ -25,6 +25,7 @@
 		45459FB923EE9EBD008B16F0 /* DownloadProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45459FB823EE9EBD008B16F0 /* DownloadProgress.swift */; };
 		45459FBB23EEB7FC008B16F0 /* UploadImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45459FBA23EEB7FC008B16F0 /* UploadImageView.swift */; };
 		45459FBD23EEC0C9008B16F0 /* PerformSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45459FBC23EEC0C9008B16F0 /* PerformSelector.swift */; };
+		45459FC423EEE022008B16F0 /* GCDownloadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45459FC323EEE022008B16F0 /* GCDownloadView.swift */; };
 		454685AD23EAD373005FCBC5 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 454685AC23EAD373005FCBC5 /* Settings.bundle */; };
 		454685AF23EADF44005FCBC5 /* GyroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454685AE23EADF44005FCBC5 /* GyroView.swift */; };
 		454685B123EAE844005FCBC5 /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454685B023EAE844005FCBC5 /* LocationView.swift */; };
@@ -205,6 +206,7 @@
 		45459FB823EE9EBD008B16F0 /* DownloadProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadProgress.swift; sourceTree = "<group>"; };
 		45459FBA23EEB7FC008B16F0 /* UploadImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadImageView.swift; sourceTree = "<group>"; };
 		45459FBC23EEC0C9008B16F0 /* PerformSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerformSelector.swift; sourceTree = "<group>"; };
+		45459FC323EEE022008B16F0 /* GCDownloadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GCDownloadView.swift; sourceTree = "<group>"; };
 		454685AC23EAD373005FCBC5 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		454685AE23EADF44005FCBC5 /* GyroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GyroView.swift; sourceTree = "<group>"; };
 		454685B023EAE844005FCBC5 /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
@@ -425,6 +427,14 @@
 			path = mail;
 			sourceTree = "<group>";
 		};
+		45459FC023EED089008B16F0 /* MultiThread */ = {
+			isa = PBXGroup;
+			children = (
+				45459FC323EEE022008B16F0 /* GCDownloadView.swift */,
+			);
+			path = MultiThread;
+			sourceTree = "<group>";
+		};
 		454685B223EB2489005FCBC5 /* Location */ = {
 			isa = PBXGroup;
 			children = (
@@ -573,6 +583,7 @@
 				4543C1EB23E1921C005BC2B5 /* Demo */,
 				45EFB85323EAAA3300701988 /* Advance */,
 				45459FA423ED6EC9008B16F0 /* Network */,
+				45459FC023EED089008B16F0 /* MultiThread */,
 				454685AC23EAD373005FCBC5 /* Settings.bundle */,
 				45459F9F23ED6011008B16F0 /* Localizable.strings */,
 			);
@@ -922,6 +933,7 @@
 				457CDFF623CC20B0009B1A96 /* LoopFileView.swift in Sources */,
 				454E52A723C33198001156D0 /* ScrollView-Vertical+Horizontal.swift in Sources */,
 				455A606923C2CE5100EDC97F /* TapGesture-SingleTap.swift in Sources */,
+				45459FC423EEE022008B16F0 /* GCDownloadView.swift in Sources */,
 				45F962EE23DD75AB00E8B9C7 /* Presentation-Mode.swift in Sources */,
 				454E52AD23C3395B001156D0 /* Form-EnableDisable.swift in Sources */,
 				45CD88F623BAF60600885CE5 /* WebView.swift in Sources */,
