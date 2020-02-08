@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		453EE7CE23EEF68000F4A31C /* CIFilterListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453EE7CD23EEF68000F4A31C /* CIFilterListView.swift */; };
 		4543C1E823E14634005BC2B5 /* StatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4543C1E723E14634005BC2B5 /* StatApp.swift */; };
 		4543C1EA23E151E3005BC2B5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4543C1E923E151E3005BC2B5 /* Constants.swift */; };
 		4543C1ED23E192BA005BC2B5 /* FoodApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4543C1EC23E192BA005BC2B5 /* FoodApp.swift */; };
@@ -188,6 +189,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		453EE7CD23EEF68000F4A31C /* CIFilterListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CIFilterListView.swift; sourceTree = "<group>"; };
 		4543C1E723E14634005BC2B5 /* StatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatApp.swift; sourceTree = "<group>"; };
 		4543C1E923E151E3005BC2B5 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		4543C1EC23E192BA005BC2B5 /* FoodApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodApp.swift; sourceTree = "<group>"; };
@@ -722,6 +724,7 @@
 				454685B923EC2E72005FCBC5 /* Photo */,
 				454685BE23EC5AE6005FCBC5 /* ScreenshotView.swift */,
 				45459F9623ED2621008B16F0 /* FaceDetectorView.swift */,
+				453EE7CD23EEF68000F4A31C /* CIFilterListView.swift */,
 			);
 			path = Advance;
 			sourceTree = "<group>";
@@ -840,6 +843,7 @@
 				45E558BE23E3EDBF00692354 /* IceCreamApp.swift in Sources */,
 				454E52A923C333AC001156D0 /* Form-Basic.swift in Sources */,
 				45CD88F423BAF4BF00885CE5 /* TabBarView.swift in Sources */,
+				453EE7CE23EEF68000F4A31C /* CIFilterListView.swift in Sources */,
 				4594D39323C4387F00C8F758 /* Background.swift in Sources */,
 				45BC262123DC1927000E9D64 /* Rotation.swift in Sources */,
 				45CD88C223B9E8C600885CE5 /* Text-BasicStyle.swift in Sources */,
