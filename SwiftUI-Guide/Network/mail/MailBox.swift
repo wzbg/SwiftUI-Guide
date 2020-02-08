@@ -5,6 +5,7 @@
 //  Created by huanbing on 2020/2/7.
 //  Copyright © 2020 unrealce. All rights reserved.
 //
+// https://stackoverflow.com/questions/56784722/swiftui-send-email
 
 import SwiftUI
 import MessageUI
@@ -38,6 +39,12 @@ struct MailBox: UIViewControllerRepresentable {
   
   func makeUIViewController(context: UIViewControllerRepresentableContext<MailBox>) -> MFMailComposeViewController {
     let compose = MFMailComposeViewController()
+    compose.setToRecipients(["z@uice.xyz"])
+    compose.setCcRecipients(["3530515@qq.com"])
+    compose.setBccRecipients(["z35305515@gmail.com"])
+    compose.setSubject("邮件标题")
+    compose.setMessageBody("<font color='blue'>邮件内容</font>", isHTML: true)
+    compose.addAttachmentData((UIImage(named: "Picture1")?.pngData())!, mimeType: "", fileName: "Picture1.png")
     compose.mailComposeDelegate = context.coordinator
     return compose
   }
