@@ -10,7 +10,7 @@ import SwiftUI
 
 struct DownloadView: View {
   private let placeholderOne = UIImage(named: "avarta3")
-  @State private var remoteImage : UIImage? = nil
+  @State private var remoteImage : UIImage?
   @State private var errorMessage : String = ""
   
   var body: some View {
@@ -26,7 +26,12 @@ struct DownloadView: View {
                 self.errorMessage = originalPath
                 let targetPath = NSHomeDirectory() + "/Documents/logo.png"
                 let fileManager = FileManager.default
+                if fileManager.fileExists(atPath: targetPath) {
+                  try fileManager.removeItem(atPath: targetPath)
+                }
                 try fileManager.moveItem(atPath: originalPath, toPath: targetPath)
+                let data = try Data(contentsOf: URL(fileURLWithPath: targetPath))
+                self.remoteImage = UIImage(data: data)
               }
             } catch {
               self.errorMessage = error.localizedDescription

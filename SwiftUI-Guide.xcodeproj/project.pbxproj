@@ -23,6 +23,7 @@
 		45459FB523EE960B008B16F0 /* IPAdressASync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45459FB423EE960B008B16F0 /* IPAdressASync.swift */; };
 		45459FB723EE98ED008B16F0 /* DownloadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45459FB623EE98ED008B16F0 /* DownloadView.swift */; };
 		45459FB923EE9EBD008B16F0 /* DownloadProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45459FB823EE9EBD008B16F0 /* DownloadProgress.swift */; };
+		45459FBB23EEB7FC008B16F0 /* UploadImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45459FBA23EEB7FC008B16F0 /* UploadImageView.swift */; };
 		454685AD23EAD373005FCBC5 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 454685AC23EAD373005FCBC5 /* Settings.bundle */; };
 		454685AF23EADF44005FCBC5 /* GyroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454685AE23EADF44005FCBC5 /* GyroView.swift */; };
 		454685B123EAE844005FCBC5 /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454685B023EAE844005FCBC5 /* LocationView.swift */; };
@@ -201,6 +202,7 @@
 		45459FB423EE960B008B16F0 /* IPAdressASync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPAdressASync.swift; sourceTree = "<group>"; };
 		45459FB623EE98ED008B16F0 /* DownloadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadView.swift; sourceTree = "<group>"; };
 		45459FB823EE9EBD008B16F0 /* DownloadProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadProgress.swift; sourceTree = "<group>"; };
+		45459FBA23EEB7FC008B16F0 /* UploadImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadImageView.swift; sourceTree = "<group>"; };
 		454685AC23EAD373005FCBC5 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		454685AE23EADF44005FCBC5 /* GyroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GyroView.swift; sourceTree = "<group>"; };
 		454685B023EAE844005FCBC5 /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
@@ -406,6 +408,7 @@
 				45459FB423EE960B008B16F0 /* IPAdressASync.swift */,
 				45459FB623EE98ED008B16F0 /* DownloadView.swift */,
 				45459FB823EE9EBD008B16F0 /* DownloadProgress.swift */,
+				45459FBA23EEB7FC008B16F0 /* UploadImageView.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -835,6 +838,7 @@
 				45459FB323EE9139008B16F0 /* IPAdressSync.swift in Sources */,
 				454E52AB23C337F9001156D0 /* Form-Segment.swift in Sources */,
 				45F0529723DFF42E004A7195 /* DepositApp.swift in Sources */,
+				45459FBB23EEB7FC008B16F0 /* UploadImageView.swift in Sources */,
 				45F0529923E048F6004A7195 /* LogInView.swift in Sources */,
 				454685B423EB24AE005FCBC5 /* LocationManager.swift in Sources */,
 				45CD890023BB33A700885CE5 /* Linear-Gradient.swift in Sources */,

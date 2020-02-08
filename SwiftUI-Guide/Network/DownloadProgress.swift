@@ -27,7 +27,7 @@ class DownloadManager: NSObject, ObservableObject, URLSessionDownloadDelegate {
     do {
       let originalPath = location.path
       print("临时路径：\(originalPath)")
-      let targetPath = NSHomeDirectory() + "/Documents/target"
+      let targetPath = NSHomeDirectory() + "/Documents/logo.png"
       let fileManager = FileManager.default
       if fileManager.fileExists(atPath: targetPath) {
         try fileManager.removeItem(atPath: targetPath)
@@ -61,7 +61,7 @@ class DownloadManager: NSObject, ObservableObject, URLSessionDownloadDelegate {
 }
 
 struct DownloadProgress: View {
-  private let website = "https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2019-12/R/eclipse-jee-2019-12-R-macosx-cocoa-x86_64.dmg"
+  private let website = "http://hdjc8.com/images/logo.png"
   @ObservedObject var dm = DownloadManager()
   
   var body: some View {
