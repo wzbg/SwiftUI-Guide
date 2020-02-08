@@ -39,6 +39,7 @@ struct MailView: View {
         Text("发送邮件")
       }
       Text("发送结果：\(resultDescription)")
+        .foregroundColor(Color(UIColor(named: "FontColor")!))
         .padding()
     }
     .disabled(!MFMailComposeViewController.canSendMail())
