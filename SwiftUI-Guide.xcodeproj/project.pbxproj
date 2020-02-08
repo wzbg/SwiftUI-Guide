@@ -22,6 +22,7 @@
 		45459FB323EE9139008B16F0 /* IPAdressSync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45459FB223EE9139008B16F0 /* IPAdressSync.swift */; };
 		45459FB523EE960B008B16F0 /* IPAdressASync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45459FB423EE960B008B16F0 /* IPAdressASync.swift */; };
 		45459FB723EE98ED008B16F0 /* DownloadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45459FB623EE98ED008B16F0 /* DownloadView.swift */; };
+		45459FB923EE9EBD008B16F0 /* DownloadProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45459FB823EE9EBD008B16F0 /* DownloadProgress.swift */; };
 		454685AD23EAD373005FCBC5 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 454685AC23EAD373005FCBC5 /* Settings.bundle */; };
 		454685AF23EADF44005FCBC5 /* GyroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454685AE23EADF44005FCBC5 /* GyroView.swift */; };
 		454685B123EAE844005FCBC5 /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454685B023EAE844005FCBC5 /* LocationView.swift */; };
@@ -199,6 +200,7 @@
 		45459FB223EE9139008B16F0 /* IPAdressSync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPAdressSync.swift; sourceTree = "<group>"; };
 		45459FB423EE960B008B16F0 /* IPAdressASync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPAdressASync.swift; sourceTree = "<group>"; };
 		45459FB623EE98ED008B16F0 /* DownloadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadView.swift; sourceTree = "<group>"; };
+		45459FB823EE9EBD008B16F0 /* DownloadProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadProgress.swift; sourceTree = "<group>"; };
 		454685AC23EAD373005FCBC5 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		454685AE23EADF44005FCBC5 /* GyroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GyroView.swift; sourceTree = "<group>"; };
 		454685B023EAE844005FCBC5 /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
@@ -403,6 +405,7 @@
 				45459FB223EE9139008B16F0 /* IPAdressSync.swift */,
 				45459FB423EE960B008B16F0 /* IPAdressASync.swift */,
 				45459FB623EE98ED008B16F0 /* DownloadView.swift */,
+				45459FB823EE9EBD008B16F0 /* DownloadProgress.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -866,6 +869,7 @@
 				45BC261523D6B8D5000E9D64 /* Image-Mirror.swift in Sources */,
 				45BC263523DC6081000E9D64 /* ContextMenu.swift in Sources */,
 				45459FA823ED9420008B16F0 /* OpenURLView.swift in Sources */,
+				45459FB923EE9EBD008B16F0 /* DownloadProgress.swift in Sources */,
 				454E52A323C32CAF001156D0 /* ScrollView-Vertical.swift in Sources */,
 				45459FAA23EDA5EC008B16F0 /* MailView.swift in Sources */,
 				454685BB23EC2EB2005FCBC5 /* ImagePicker.swift in Sources */,
