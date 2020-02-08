@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-struct IPAdressView: View {
+struct IPAdressSync: View {
   @State var ip = "加载中..."
   
   var body: some View {
@@ -40,8 +40,8 @@ struct IPAdressView: View {
   }
 }
 
-struct IPAdressView_Previews: PreviewProvider {
+struct IPAdressSync_Previews: PreviewProvider {
   static var previews: some View {
-    IPAdressView()
+    IPAdressSync()
   }
 }

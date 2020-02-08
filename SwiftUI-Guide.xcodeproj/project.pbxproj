@@ -19,7 +19,8 @@
 		45459FAD23EDBA86008B16F0 /* MailBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45459FAC23EDBA86008B16F0 /* MailBox.swift */; };
 		45459FAF23EE87E2008B16F0 /* SourceCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45459FAE23EE87E2008B16F0 /* SourceCodeView.swift */; };
 		45459FB123EE8CB6008B16F0 /* GitHubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45459FB023EE8CB6008B16F0 /* GitHubView.swift */; };
-		45459FB323EE9139008B16F0 /* IPAdressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45459FB223EE9139008B16F0 /* IPAdressView.swift */; };
+		45459FB323EE9139008B16F0 /* IPAdressSync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45459FB223EE9139008B16F0 /* IPAdressSync.swift */; };
+		45459FB523EE960B008B16F0 /* IPAdressASync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45459FB423EE960B008B16F0 /* IPAdressASync.swift */; };
 		454685AD23EAD373005FCBC5 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 454685AC23EAD373005FCBC5 /* Settings.bundle */; };
 		454685AF23EADF44005FCBC5 /* GyroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454685AE23EADF44005FCBC5 /* GyroView.swift */; };
 		454685B123EAE844005FCBC5 /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454685B023EAE844005FCBC5 /* LocationView.swift */; };
@@ -194,7 +195,8 @@
 		45459FAC23EDBA86008B16F0 /* MailBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailBox.swift; sourceTree = "<group>"; };
 		45459FAE23EE87E2008B16F0 /* SourceCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceCodeView.swift; sourceTree = "<group>"; };
 		45459FB023EE8CB6008B16F0 /* GitHubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubView.swift; sourceTree = "<group>"; };
-		45459FB223EE9139008B16F0 /* IPAdressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPAdressView.swift; sourceTree = "<group>"; };
+		45459FB223EE9139008B16F0 /* IPAdressSync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPAdressSync.swift; sourceTree = "<group>"; };
+		45459FB423EE960B008B16F0 /* IPAdressASync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPAdressASync.swift; sourceTree = "<group>"; };
 		454685AC23EAD373005FCBC5 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		454685AE23EADF44005FCBC5 /* GyroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GyroView.swift; sourceTree = "<group>"; };
 		454685B023EAE844005FCBC5 /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
@@ -396,7 +398,8 @@
 				45459FAB23EDB0D1008B16F0 /* mail */,
 				45459FAE23EE87E2008B16F0 /* SourceCodeView.swift */,
 				45459FB023EE8CB6008B16F0 /* GitHubView.swift */,
-				45459FB223EE9139008B16F0 /* IPAdressView.swift */,
+				45459FB223EE9139008B16F0 /* IPAdressSync.swift */,
+				45459FB423EE960B008B16F0 /* IPAdressASync.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -818,11 +821,12 @@
 				45BC262123DC1927000E9D64 /* Rotation.swift in Sources */,
 				45CD88C223B9E8C600885CE5 /* Text-BasicStyle.swift in Sources */,
 				454E52B423C3405B001156D0 /* NavigationLink+GoBack.swift in Sources */,
+				45459FB523EE960B008B16F0 /* IPAdressASync.swift in Sources */,
 				4588A46223CC5F6E003146F1 /* CreatePlistView.swift in Sources */,
 				45BC261923D702D6000E9D64 /* List-Section.swift in Sources */,
 				45EB509F23DE96A2000E3809 /* PrettyAnimation.swift in Sources */,
 				455A606F23C2D66A00EDC97F /* Rotation-Gesture.swift in Sources */,
-				45459FB323EE9139008B16F0 /* IPAdressView.swift in Sources */,
+				45459FB323EE9139008B16F0 /* IPAdressSync.swift in Sources */,
 				454E52AB23C337F9001156D0 /* Form-Segment.swift in Sources */,
 				45F0529723DFF42E004A7195 /* DepositApp.swift in Sources */,
 				45F0529923E048F6004A7195 /* LogInView.swift in Sources */,
