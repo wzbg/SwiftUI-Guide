@@ -9,13 +9,13 @@
 import SwiftUI
 
 struct GCDownloadView: View {
-  let placeholderOne = UIImage(named: "avarta3")
-  @State private var remoteImage : UIImage? = nil
-  @State private var errorMessage : String = ""
+  let placeholderOne = UIImage(named: "avarta3")!
+  @State private var remoteImage: UIImage?
+  @State private var errorMessage = ""
   
   var body: some View {
     VStack {
-      Image(uiImage: self.remoteImage ?? placeholderOne!)
+      Image(uiImage: remoteImage ?? placeholderOne)
         .onAppear() {
           guard let url = URL(string: "http://hdjc8.com/images/logo.png") else {
             return

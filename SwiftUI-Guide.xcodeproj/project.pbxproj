@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		45371DD523F576E100B35CF4 /* RefreshableList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45371DD423F576E100B35CF4 /* RefreshableList.swift */; };
+		45371DD723F5B78D00B35CF4 /* RefreshableListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45371DD623F5B78D00B35CF4 /* RefreshableListView.swift */; };
 		453EE7CE23EEF68000F4A31C /* CIFilterListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453EE7CD23EEF68000F4A31C /* CIFilterListView.swift */; };
 		4543C1E823E14634005BC2B5 /* StatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4543C1E723E14634005BC2B5 /* StatApp.swift */; };
 		4543C1EA23E151E3005BC2B5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4543C1E923E151E3005BC2B5 /* Constants.swift */; };
@@ -189,6 +191,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		45371DD423F576E100B35CF4 /* RefreshableList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshableList.swift; sourceTree = "<group>"; };
+		45371DD623F5B78D00B35CF4 /* RefreshableListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshableListView.swift; sourceTree = "<group>"; };
 		453EE7CD23EEF68000F4A31C /* CIFilterListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CIFilterListView.swift; sourceTree = "<group>"; };
 		4543C1E723E14634005BC2B5 /* StatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatApp.swift; sourceTree = "<group>"; };
 		4543C1E923E151E3005BC2B5 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
@@ -384,6 +388,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		45371DD323F576AD00B35CF4 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				45371DD423F576E100B35CF4 /* RefreshableList.swift */,
+				45371DD623F5B78D00B35CF4 /* RefreshableListView.swift */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
 		4543C1EB23E1921C005BC2B5 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
@@ -586,6 +599,7 @@
 				45EFB85323EAAA3300701988 /* Advance */,
 				45459FA423ED6EC9008B16F0 /* Network */,
 				45459FC023EED089008B16F0 /* MultiThread */,
+				45371DD323F576AD00B35CF4 /* Custom */,
 				454685AC23EAD373005FCBC5 /* Settings.bundle */,
 				45459F9F23ED6011008B16F0 /* Localizable.strings */,
 			);
@@ -836,6 +850,7 @@
 				455A606B23C2D02800EDC97F /* TapGesture-DoubleTap.swift in Sources */,
 				454685B823EC1958005FCBC5 /* PhotoAlbumView.swift in Sources */,
 				4543C1ED23E192BA005BC2B5 /* FoodApp.swift in Sources */,
+				45371DD723F5B78D00B35CF4 /* RefreshableListView.swift in Sources */,
 				45EFB85723EAB1C500701988 /* FontListView.swift in Sources */,
 				45BC262323DC1D1B000E9D64 /* RockRoll.swift in Sources */,
 				45CD88AE23B9E89400885CE5 /* AppDelegate.swift in Sources */,
@@ -895,6 +910,7 @@
 				454E52A323C32CAF001156D0 /* ScrollView-Vertical.swift in Sources */,
 				45459FAA23EDA5EC008B16F0 /* MailView.swift in Sources */,
 				454685BB23EC2EB2005FCBC5 /* ImagePicker.swift in Sources */,
+				45371DD523F576E100B35CF4 /* RefreshableList.swift in Sources */,
 				45CD891223BB505100885CE5 /* SpeadAndDelay.swift in Sources */,
 				454E52B823C421D7001156D0 /* ObjectBinding.swift in Sources */,
 				45CD88DC23B9FC3200885CE5 /* Image-Style.swift in Sources */,
