@@ -9,20 +9,25 @@
 import SwiftUI
 
 struct RefreshableListView: View {
-  @State private var data = [Int]()
+  @State private var data = [randomColor()]
   
-  func randomInt() -> Int {
-    Int.random(in: Int.min ... Int.max)
+  private static func randomColor() -> Color {
+    Color(red: randomDouble(), green: randomDouble(), blue: randomDouble())
+  }
+  
+  private static func randomDouble() -> Double {
+    Double.random(in: 0 ... 1)
   }
   
   var body: some View {
     RefreshableList(pullUp: {
-      self.data.append(self.randomInt())
+      self.data.append(Self.randomColor())
     }, pullDown: {
-      self.data.insert(self.randomInt(), at: 0)
+      self.data.insert(Self.randomColor(), at: 0)
     }) {
       ForEach(self.data, id: \.self) {
-        Text("\($0)")
+        Rectangle()
+          .foregroundColor($0)
       }
     }
   }
