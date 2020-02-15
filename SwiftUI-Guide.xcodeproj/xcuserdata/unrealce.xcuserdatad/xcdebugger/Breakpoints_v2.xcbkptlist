@@ -94,8 +94,8 @@
             filePath = "SwiftUI-Guide/Custom/ListPaginationExampleView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "64"
-            endingLineNumber = "64"
+            startingLineNumber = "87"
+            endingLineNumber = "87"
             landmarkName = "listItemAppears(_:)"
             landmarkType = "7">
          </BreakpointContent>
