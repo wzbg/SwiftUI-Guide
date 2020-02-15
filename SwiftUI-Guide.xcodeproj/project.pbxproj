@@ -180,6 +180,7 @@
 		45EFB85723EAB1C500701988 /* FontListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EFB85623EAB1C500701988 /* FontListView.swift */; };
 		45F0529723DFF42E004A7195 /* DepositApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F0529623DFF42E004A7195 /* DepositApp.swift */; };
 		45F0529923E048F6004A7195 /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F0529823E048F6004A7195 /* LogInView.swift */; };
+		45F3D24623F7A840002A3B26 /* ListPaginationExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F3D24523F7A840002A3B26 /* ListPaginationExampleView.swift */; };
 		45F962EE23DD75AB00E8B9C7 /* Presentation-Mode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F962ED23DD75AB00E8B9C7 /* Presentation-Mode.swift */; };
 		45F962F023DD894B00E8B9C7 /* BindingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F962EF23DD894B00E8B9C7 /* BindingView.swift */; };
 		45F962F223DD9F7A00E8B9C7 /* ObjectBinding2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F962F123DD9F7A00E8B9C7 /* ObjectBinding2.swift */; };
@@ -366,6 +367,7 @@
 		45EFB85623EAB1C500701988 /* FontListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontListView.swift; sourceTree = "<group>"; };
 		45F0529623DFF42E004A7195 /* DepositApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepositApp.swift; sourceTree = "<group>"; };
 		45F0529823E048F6004A7195 /* LogInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInView.swift; sourceTree = "<group>"; };
+		45F3D24523F7A840002A3B26 /* ListPaginationExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListPaginationExampleView.swift; sourceTree = "<group>"; };
 		45F962ED23DD75AB00E8B9C7 /* Presentation-Mode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Presentation-Mode.swift"; sourceTree = "<group>"; };
 		45F962EF23DD894B00E8B9C7 /* BindingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingView.swift; sourceTree = "<group>"; };
 		45F962F123DD9F7A00E8B9C7 /* ObjectBinding2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectBinding2.swift; sourceTree = "<group>"; };
@@ -395,6 +397,7 @@
 			children = (
 				45371DD423F576E100B35CF4 /* RefreshableList.swift */,
 				45371DD623F5B78D00B35CF4 /* RefreshableListView.swift */,
+				45F3D24523F7A840002A3B26 /* ListPaginationExampleView.swift */,
 			);
 			path = Custom;
 			sourceTree = "<group>";
@@ -888,6 +891,7 @@
 				455A607123C2DAC400EDC97F /* Drag-Gesture.swift in Sources */,
 				4594D3A323C46D5900C8F758 /* NavigationBar-Item.swift in Sources */,
 				45BC262D23DC364A000E9D64 /* TrackRotation.swift in Sources */,
+				45F3D24623F7A840002A3B26 /* ListPaginationExampleView.swift in Sources */,
 				454E52B623C41D8A001156D0 /* PageNavigation.swift in Sources */,
 				4594D38E23C42FFE00C8F758 /* Show-ActionSheet.swift in Sources */,
 				454E529F23C32813001156D0 /* List-Move.swift in Sources */,
