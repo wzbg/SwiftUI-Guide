@@ -188,6 +188,7 @@
 		45FBCCD323CD587400325614 /* CoreDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FBCCD223CD587400325614 /* CoreDataView.swift */; };
 		45FBCCFC23CD9EC300325614 /* SingletonClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FBCCFB23CD9EC300325614 /* SingletonClass.swift */; };
 		45FBCCFE23CDA03500325614 /* SingletonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FBCCFD23CDA03500325614 /* SingletonView.swift */; };
+		45FC54B023F716230095B0A1 /* List-DragGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FC54AF23F716230095B0A1 /* List-DragGesture.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -373,6 +374,7 @@
 		45FBCCD223CD587400325614 /* CoreDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataView.swift; sourceTree = "<group>"; };
 		45FBCCFB23CD9EC300325614 /* SingletonClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonClass.swift; sourceTree = "<group>"; };
 		45FBCCFD23CDA03500325614 /* SingletonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonView.swift; sourceTree = "<group>"; };
+		45FC54AF23F716230095B0A1 /* List-DragGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "List-DragGesture.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -508,6 +510,7 @@
 				454E52AC23C3395B001156D0 /* Form-EnableDisable.swift */,
 				454E52AE23C33AF8001156D0 /* Form-ShowHide.swift */,
 				45BC261823D702D6000E9D64 /* List-Section.swift */,
+				45FC54AF23F716230095B0A1 /* List-DragGesture.swift */,
 			);
 			path = Layout;
 			sourceTree = "<group>";
@@ -955,6 +958,7 @@
 				455A606923C2CE5100EDC97F /* TapGesture-SingleTap.swift in Sources */,
 				45459FC423EEE022008B16F0 /* GCDownloadView.swift in Sources */,
 				45F962EE23DD75AB00E8B9C7 /* Presentation-Mode.swift in Sources */,
+				45FC54B023F716230095B0A1 /* List-DragGesture.swift in Sources */,
 				454E52AD23C3395B001156D0 /* Form-EnableDisable.swift in Sources */,
 				45CD88F623BAF60600885CE5 /* WebView.swift in Sources */,
 				45CDDAFE23DF0FC3002DF89D /* BankCardApp.swift in Sources */,
