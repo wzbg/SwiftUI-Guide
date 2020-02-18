@@ -192,6 +192,9 @@
 		45FBCCFC23CD9EC300325614 /* SingletonClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FBCCFB23CD9EC300325614 /* SingletonClass.swift */; };
 		45FBCCFE23CDA03500325614 /* SingletonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FBCCFD23CDA03500325614 /* SingletonView.swift */; };
 		45FC54B023F716230095B0A1 /* List-DragGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FC54AF23F716230095B0A1 /* List-DragGesture.swift */; };
+		45FDE55223FC1F830082B004 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FDE55123FC1F830082B004 /* PageViewController.swift */; };
+		45FDE55523FC24890082B004 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FDE55423FC24890082B004 /* PageView.swift */; };
+		45FDE55723FC41220082B004 /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FDE55623FC41220082B004 /* PageControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -381,6 +384,9 @@
 		45FBCCFB23CD9EC300325614 /* SingletonClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonClass.swift; sourceTree = "<group>"; };
 		45FBCCFD23CDA03500325614 /* SingletonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonView.swift; sourceTree = "<group>"; };
 		45FC54AF23F716230095B0A1 /* List-DragGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "List-DragGesture.swift"; sourceTree = "<group>"; };
+		45FDE55123FC1F830082B004 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		45FDE55423FC24890082B004 /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
+		45FDE55623FC41220082B004 /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -759,8 +765,19 @@
 				45459F9623ED2621008B16F0 /* FaceDetectorView.swift */,
 				453EE7CD23EEF68000F4A31C /* CIFilterListView.swift */,
 				451207BB23F8FF9200D49A5A /* SearchBar */,
+				45FDE55323FC24660082B004 /* PageView */,
 			);
 			path = Advance;
+			sourceTree = "<group>";
+		};
+		45FDE55323FC24660082B004 /* PageView */ = {
+			isa = PBXGroup;
+			children = (
+				45FDE55123FC1F830082B004 /* PageViewController.swift */,
+				45FDE55623FC41220082B004 /* PageControl.swift */,
+				45FDE55423FC24890082B004 /* PageView.swift */,
+			);
+			path = PageView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -870,6 +887,7 @@
 				455A606B23C2D02800EDC97F /* TapGesture-DoubleTap.swift in Sources */,
 				454685B823EC1958005FCBC5 /* PhotoAlbumView.swift in Sources */,
 				4543C1ED23E192BA005BC2B5 /* FoodApp.swift in Sources */,
+				45FDE55523FC24890082B004 /* PageView.swift in Sources */,
 				45371DD723F5B78D00B35CF4 /* RefreshableListView.swift in Sources */,
 				45EFB85723EAB1C500701988 /* FontListView.swift in Sources */,
 				45BC262323DC1D1B000E9D64 /* RockRoll.swift in Sources */,
@@ -901,6 +919,7 @@
 				45CD890423BB39B500885CE5 /* Radial-Gradient.swift in Sources */,
 				45CD88EC23BAE91700885CE5 /* SliderView.swift in Sources */,
 				45CD88D823B9F97E00885CE5 /* DividerView.swift in Sources */,
+				45FDE55223FC1F830082B004 /* PageViewController.swift in Sources */,
 				45F962F623DDAF6A00E8B9C7 /* Popover-Modal.swift in Sources */,
 				4588A45E23CC5A30003146F1 /* ReadPlistView.swift in Sources */,
 				455A607123C2DAC400EDC97F /* Drag-Gesture.swift in Sources */,
@@ -922,6 +941,7 @@
 				455A607A23C2E20D00EDC97F /* VStack-Layout.swift in Sources */,
 				45CD88CE23B9EFC400885CE5 /* Text-TextField.swift in Sources */,
 				45BC262923DC2785000E9D64 /* RotateFlower.swift in Sources */,
+				45FDE55723FC41220082B004 /* PageControl.swift in Sources */,
 				4588A45C23CC5152003146F1 /* UserDefaultsView.swift in Sources */,
 				454685B123EAE844005FCBC5 /* LocationView.swift in Sources */,
 				45CD88D223B9F22700885CE5 /* Button-Basic.swift in Sources */,

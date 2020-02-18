@@ -10,7 +10,16 @@ import SwiftUI
 
 struct ContentView: View {
   var body: some View {
-    ListPaginationExampleView()
+    PageView([
+      Rectangle().foregroundColor(.gray),
+      Rectangle().foregroundColor(.red),
+      Rectangle().foregroundColor(.green),
+      Rectangle().foregroundColor(.blue),
+      Rectangle().foregroundColor(.orange),
+      Rectangle().foregroundColor(.yellow),
+      Rectangle().foregroundColor(.pink),
+      Rectangle().foregroundColor(.purple)
+    ])
   }
 }
 
