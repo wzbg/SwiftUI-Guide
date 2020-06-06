@@ -196,6 +196,7 @@
 		45FDE55523FC24890082B004 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FDE55423FC24890082B004 /* PageView.swift */; };
 		45FDE55723FC41220082B004 /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FDE55623FC41220082B004 /* PageControl.swift */; };
 		70067916248B791F00B8B910 /* SystemSoundIdDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70067915248B791F00B8B910 /* SystemSoundIdDemo.swift */; };
+		70067918248B982F00B8B910 /* 滴答.wav in Resources */ = {isa = PBXBuildFile; fileRef = 70067917248B982F00B8B910 /* 滴答.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -389,6 +390,7 @@
 		45FDE55423FC24890082B004 /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
 		45FDE55623FC41220082B004 /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
 		70067915248B791F00B8B910 /* SystemSoundIdDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemSoundIdDemo.swift; sourceTree = "<group>"; };
+		70067917248B982F00B8B910 /* 滴答.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "滴答.wav"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -786,6 +788,7 @@
 		70067914248B78C000B8B910 /* Media */ = {
 			isa = PBXGroup;
 			children = (
+				70067917248B982F00B8B910 /* 滴答.wav */,
 				70067915248B791F00B8B910 /* SystemSoundIdDemo.swift */,
 			);
 			path = Media;
@@ -868,6 +871,7 @@
 				45E558BA23E2B73900692354 /* 平板支撑.gif in Resources */,
 				454685AD23EAD373005FCBC5 /* Settings.bundle in Resources */,
 				45CD88B423B9E89800885CE5 /* Assets.xcassets in Resources */,
+				70067918248B982F00B8B910 /* 滴答.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

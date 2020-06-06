@@ -11,6 +11,8 @@ import SwiftUI
 import AudioToolbox
 
 struct SystemSoundIdDemo: View {
+  @State var soundID: SystemSoundID = 0
+  
   var body: some View {
     VStack {
       List(1000...1568, id: \.self) { id in
@@ -18,8 +20,21 @@ struct SystemSoundIdDemo: View {
           AudioServicesPlaySystemSound(id)
         }
       }
-      Button("震动") {
-        AudioServicesPlaySystemSound(kSystemSoundID_Vibrate)
+      HStack {
+        Spacer()
+        Button("震动") {
+          AudioServicesPlaySystemSound(kSystemSoundID_Vibrate)
+        }
+        Spacer()
+        Button("滴答") {
+          AudioServicesPlaySystemSound(self.soundID)
+        }
+        Spacer()
+      }
+    }.onAppear {
+      if let path = Bundle.main.path(forResource: "滴答", ofType: "wav") {
+        let soundUrl = URL(fileURLWithPath: path)
+        AudioServicesCreateSystemSoundID(soundUrl as CFURL, &self.soundID)
       }
     }
   }
