@@ -195,6 +195,7 @@
 		45FDE55223FC1F830082B004 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FDE55123FC1F830082B004 /* PageViewController.swift */; };
 		45FDE55523FC24890082B004 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FDE55423FC24890082B004 /* PageView.swift */; };
 		45FDE55723FC41220082B004 /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FDE55623FC41220082B004 /* PageControl.swift */; };
+		70067916248B791F00B8B910 /* SystemSoundIdDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70067915248B791F00B8B910 /* SystemSoundIdDemo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -387,6 +388,7 @@
 		45FDE55123FC1F830082B004 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		45FDE55423FC24890082B004 /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
 		45FDE55623FC41220082B004 /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
+		70067915248B791F00B8B910 /* SystemSoundIdDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemSoundIdDemo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -625,6 +627,7 @@
 				45459FA423ED6EC9008B16F0 /* Network */,
 				45459FC023EED089008B16F0 /* MultiThread */,
 				45371DD323F576AD00B35CF4 /* Custom */,
+				70067914248B78C000B8B910 /* Media */,
 				454685AC23EAD373005FCBC5 /* Settings.bundle */,
 				45459F9F23ED6011008B16F0 /* Localizable.strings */,
 			);
@@ -780,6 +783,14 @@
 			path = PageView;
 			sourceTree = "<group>";
 		};
+		70067914248B78C000B8B910 /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				70067915248B791F00B8B910 /* SystemSoundIdDemo.swift */,
+			);
+			path = Media;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -883,6 +894,7 @@
 				455A606D23C2D09500EDC97F /* LongPress-Gesture.swift in Sources */,
 				45CD88D423B9F7D200885CE5 /* Button-Sheet.swift in Sources */,
 				45CDDAF823DEBC1F002DF89D /* TeachApp.swift in Sources */,
+				70067916248B791F00B8B910 /* SystemSoundIdDemo.swift in Sources */,
 				45CD890C23BB480E00885CE5 /* RotationEffect-Spring.swift in Sources */,
 				455A606B23C2D02800EDC97F /* TapGesture-DoubleTap.swift in Sources */,
 				454685B823EC1958005FCBC5 /* PhotoAlbumView.swift in Sources */,

@@ -10,16 +10,17 @@ import SwiftUI
 
 struct ContentView: View {
   var body: some View {
-    PageView([
-      Rectangle().foregroundColor(.gray),
-      Rectangle().foregroundColor(.red),
-      Rectangle().foregroundColor(.green),
-      Rectangle().foregroundColor(.blue),
-      Rectangle().foregroundColor(.orange),
-      Rectangle().foregroundColor(.yellow),
-      Rectangle().foregroundColor(.pink),
-      Rectangle().foregroundColor(.purple)
-    ])
+    SystemSoundIdDemo()
+//    PageView([
+//      Rectangle().foregroundColor(.gray),
+//      Rectangle().foregroundColor(.red),
+//      Rectangle().foregroundColor(.green),
+//      Rectangle().foregroundColor(.blue),
+//      Rectangle().foregroundColor(.orange),
+//      Rectangle().foregroundColor(.yellow),
+//      Rectangle().foregroundColor(.pink),
+//      Rectangle().foregroundColor(.purple)
+//    ])
   }
 }
 
