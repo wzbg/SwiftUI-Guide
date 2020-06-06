@@ -12,22 +12,23 @@ import AudioToolbox
 
 struct SystemSoundIdDemo: View {
   @State var soundID: SystemSoundID = 0
+  @State var playing: SystemSoundID = 0
   
   var body: some View {
     VStack {
       List(1000...1568, id: \.self) { id in
         Button("系统声音ID：\(id)") {
-          AudioServicesPlaySystemSound(id)
+          self.playing = id
         }
       }
       HStack {
         Spacer()
         Button("震动") {
-          AudioServicesPlaySystemSound(kSystemSoundID_Vibrate)
+          self.playing = kSystemSoundID_Vibrate
         }
         Spacer()
         Button("滴答") {
-          AudioServicesPlaySystemSound(self.soundID)
+          self.playing = self.soundID
         }
         Spacer()
       }
@@ -35,6 +36,9 @@ struct SystemSoundIdDemo: View {
       if let path = Bundle.main.path(forResource: "滴答", ofType: "wav") {
         let soundUrl = URL(fileURLWithPath: path)
         AudioServicesCreateSystemSoundID(soundUrl as CFURL, &self.soundID)
+      }
+      Timer.scheduledTimer(withTimeInterval: 1, repeats: true) { _ in
+        AudioServicesPlaySystemSound(self.playing)
       }
     }
   }
