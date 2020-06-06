@@ -11,14 +11,22 @@ import SwiftUI
 import AudioToolbox
 
 struct SystemSoundIdDemo: View {
+  @State var soundIDs: [SystemSoundID] = []
   @State var soundID: SystemSoundID = 0
   @State var playing: SystemSoundID = 0
   
   var body: some View {
     VStack {
-      List(1000...1568, id: \.self) { id in
-        Button("系统声音ID：\(id)") {
-          self.playing = id
+      List {
+        ForEach(soundIDs, id: \.self) { id in
+          Button("系统声音ID：\(id)") {
+            self.playing = SystemSoundID(id)
+          }
+        }
+        .onDelete {
+          if let first = $0.first {
+            self.soundIDs.remove(at: first)
+          }
         }
       }
       HStack {
@@ -33,6 +41,9 @@ struct SystemSoundIdDemo: View {
         Spacer()
       }
     }.onAppear {
+      for id in 1000...1568 {
+        self.soundIDs.append(SystemSoundID(id))
+      }
       if let path = Bundle.main.path(forResource: "滴答", ofType: "wav") {
         let soundUrl = URL(fileURLWithPath: path)
         AudioServicesCreateSystemSoundID(soundUrl as CFURL, &self.soundID)
