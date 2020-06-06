@@ -19,8 +19,12 @@ struct SystemSoundIdDemo: View {
     VStack {
       List {
         ForEach(soundIDs, id: \.self) { id in
-          Button("系统声音ID：\(id)") {
-            self.playing = SystemSoundID(id)
+          HStack {
+            Button("系统声音ID：\(id)") {
+              self.playing = SystemSoundID(id)
+            }
+            Spacer()
+            Image(systemName: "\(id == self.playing ? "play" : "pause").fill")
           }
         }
         .onDelete {
