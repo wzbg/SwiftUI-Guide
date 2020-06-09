@@ -10,7 +10,7 @@ import SwiftUI
 
 struct ContentView: View {
   var body: some View {
-    SystemSoundIdDemo()
+    HealthKitDemo()
 //    PageView([
 //      Rectangle().foregroundColor(.gray),
 //      Rectangle().foregroundColor(.red),
