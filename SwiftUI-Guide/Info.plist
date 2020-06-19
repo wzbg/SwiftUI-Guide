@@ -28,7 +28,7 @@
 	<key>NSCameraUsageDescription</key>
 	<string></string>
 	<key>NSHealthShareUsageDescription</key>
-	<string>App需要您的同意，才能访问健康分享</string>
+	<string>Unrealce需要您的同意，才能获取身体数据</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string></string>
 	<key>NSPhotoLibraryAddUsageDescription</key>

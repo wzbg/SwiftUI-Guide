@@ -8,6 +8,8 @@
 
 import UIKit
 import CoreData
+import SDWebImage
+import SDWebImageWebPCoder
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -20,6 +22,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
       let settings = UIUserNotificationSettings(types: [.alert, .badge, .sound], categories: nil)
       application.registerUserNotificationSettings(settings)
     }
+    // Add WebP support
+    SDImageCodersManager.shared.addCoder(SDImageWebPCoder.shared)
     return true
   }
 
